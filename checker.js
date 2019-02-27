@@ -1141,7 +1141,7 @@ var servers = {
         Bera: [{
                 icon: "Bera.png",
                 name: "Channel 1",
-                address: "8.31.99.169", // Verified as of Jan 28th 2017
+                address: "54.186.151.49", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1151,8 +1151,8 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 2",
-                address: "8.31.99.169", // Verified as of Jan 28th 2017
-                port: "8586",
+                address: "54.214.207.253", // Verified as of Jan 28th 2017
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -1161,7 +1161,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 3",
-                address: "8.31.99.232", // Verified as of Jan 28th 2017
+                address: "34.214.214.251", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1171,8 +1171,8 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 4",
-                address: "8.31.99.232", // Verified as of Jan 28th 2017
-                port: "8586",
+                address: "35.165.105.161", // Verified as of Jan 28th 2017
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -1181,7 +1181,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 5",
-                address: "8.31.99.170", // Verified as of Jan 28th 2017
+                address: "35.167.16.143", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1191,8 +1191,8 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 6",
-                address: "8.31.99.170", // Verified as of Jan 28th 2017
-                port: "8586",
+                address: "52.40.39.138", // Verified as of Jan 28th 2017
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -1201,7 +1201,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 7",
-                address: "8.31.99.214", // Verified as of Jan 28th 2017
+                address: "54.68.47.217", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1211,8 +1211,8 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 8",
-                address: "8.31.99.221", // Verified as of Jan 28th 2017
-                port: "8586",
+                address: "52.35.241.179", // Verified as of Jan 28th 2017
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -1221,7 +1221,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 9",
-                address: "8.31.99.171", // Verified as of Jan 28th 2017
+                address: "34.218.68.31", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1231,8 +1231,8 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 10",
-                address: "8.31.99.171", // Verified as of Jan 28th 2017
-                port: "8586",
+                address: "52.43.9.29", // Verified as of Jan 28th 2017
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -1241,7 +1241,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 11",
-                address: "8.31.99.215", // Verified as of Jan 28th 2017
+                address: "54.213.64.154", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1251,8 +1251,8 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 12",
-                address: "8.31.99.215", // Verified as of Jan 28th 2017
-                port: "8586",
+                address: "52.25.121.0", // Verified as of Jan 28th 2017
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -1261,7 +1261,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 13",
-                address: "8.31.99.172", // Verified as of Jan 28th 2017
+                address: "54.148.5.57", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1271,8 +1271,8 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 14",
-                address: "8.31.99.172", // Verified as of Jan 28th 2017
-                port: "8586",
+                address: "35.161.154.148", // Verified as of Jan 28th 2017
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -1281,7 +1281,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 15",
-                address: "8.31.99.216", // Verified as of Jan 28th 2017
+                address: "54.203.140.45", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1291,8 +1291,8 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 16",
-                address: "8.31.99.216", // Verified as of Jan 28th 2017
-                port: "8586",
+                address: "35.163.184.1", // Verified as of Jan 28th 2017
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -1301,7 +1301,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 17",
-                address: "8.31.99.173", // Verified as of Jan 28th 2017
+                address: "34.218.100.191", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1311,8 +1311,8 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 18",
-                address: "8.31.99.173", // Verified as of Jan 28th 2017
-                port: "8586",
+                address: "52.38.89.169", // Verified as of Jan 28th 2017
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -1321,7 +1321,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 19",
-                address: "8.31.99.217", // Verified as of Jan 28th 2017
+                address: "52.88.17.178", // Verified as of Jan 28th 2017
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1331,8 +1331,108 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 20", // Verified as of Jan 28th 2017
-                address: "8.31.99.217",
-                port: "8586",
+                address: "52.27.189.124",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 21", // Verified as of Jan 28th 2017
+                address: "52.24.238.235",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 22", // Verified as of Jan 28th 2017
+                address: "35.160.247.37",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 23", // Verified as of Jan 28th 2017
+                address: "35.161.55.91",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 24", // Verified as of Jan 28th 2017
+                address: "54.71.154.56",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 25", // Verified as of Jan 28th 2017
+                address: "35.165.211.200",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 26", // Verified as of Jan 28th 2017
+                address: "34.214.68.116",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 27", // Verified as of Jan 28th 2017
+                address: "50.112.183.141",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 28", // Verified as of Jan 28th 2017
+                address: "35.163.92.122",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 29", // Verified as of Jan 28th 2017
+                address: "34.213.203.40",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 30", // Verified as of Jan 28th 2017
+                address: "52.43.146.238",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
