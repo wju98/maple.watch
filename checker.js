@@ -3792,7 +3792,7 @@ var checker = {
             icon: "Luna.png",
             short: "EUROPE",
             serverCount: [
-                5,
+                3,
                 1,
                 1
             ],
@@ -3810,45 +3810,24 @@ var checker = {
                         sub: "World"
                     },
                     {
-                        icon: "Kradia.png",
-                        name: "Kradia",
-                        english: false,
-                        sub: "World"
-                    },
-                    {
-                        icon: "Demethos.png",
-                        name: "Demethos",
-                        english: false,
-                        sub: "World"
-                    },
-                    {
-                        icon: "Supreme.png",
-                        name: "Supreme",
+                        icon: "Reboot.png",
+                        name: "Reboot",
                         english: false,
                         sub: "World"
                     }
                 ], [
                     servers.EMS.Login,
-                    servers.EMS.StarPlanet,
                     servers.EMS.Luna,
-                    servers.EMS.Kradia,
-                    servers.EMS.Demethos,
-                    servers.EMS.Supreme
+                    servers.EMS.Reboot,
                 ]),
                 {
                     name: "Internal Sites",
-                    description: "These are pages which are hosted on Nexon Europe's own 109.234.73.* servers.",
+                    description: "These are pages which are hosted on Nexon's servers.",
                     icons: [{
-                            icon: "Mushroom.png",
-                            name: "mapleeu.com",
+                            icon: "Nexon.png",
+                            name: "nexon.net",
                             english: false,
                             sub: ""
-                        },
-                        {
-                            icon: "Nexon.png",
-                            name: "nexoneu.com",
-                            english: false,
-                            sub: "World"
                         }
                     ],
                     content: function() {
