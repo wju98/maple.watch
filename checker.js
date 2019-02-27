@@ -380,488 +380,298 @@ var servers = {
                 rel: "Luna"
             }
         ],
-        Kradia: [{
-                icon: "Kradia.png",
+        Reboot: [{
+                icon: "Reboot.png",
                 name: "Channel 1",
-                address: "109.234.77.20",
+                address: "8.31.99.161",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 2",
-                address: "109.234.77.21",
+                address: "8.31.99.135",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 3",
-                address: "109.234.77.21",
-                port: "8586",
+                address: "8.31.99.237",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 4",
-                address: "109.234.77.22",
+                address: "8.31.99.136",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 5",
-                address: "109.234.77.22",
-                port: "8586",
+                address: "8.31.99.162",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 6",
-                address: "109.234.77.23",
+                address: "8.31.99.137",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 7",
-                address: "109.234.77.23",
-                port: "8586",
+                address: "8.31.99.195",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 8",
-                address: "109.234.77.24",
+                address: "8.31.99.138",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 9",
-                address: "109.234.77.24",
-                port: "8586",
+                address: "8.31.99.163",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 10",
-                address: "109.234.77.25",
+                address: "8.31.99.144",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 11",
-                address: "109.234.77.25",
-                port: "8586",
+                address: "8.31.99.196",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 12",
-                address: "109.234.77.26",
+                address: "8.31.99.145",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 13",
-                address: "109.234.77.26",
-                port: "8586",
+                address: "8.31.99.157",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
                 name: "Channel 14",
-                address: "109.234.77.27",
-                port: "8587",
+                address: "8.31.99.146",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
+                rel: "Reboot"
             },
             {
-                icon: "Kradia.png",
+                icon: "Reboot.png",
+                name: "Channel 15",
+                address: "8.31.99.197",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 16",
+                address: "8.31.99.158",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 17",
+                address: "8.31.99.147",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 18",
+                address: "8.31.99.148",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 19",
+                address: "8.31.99.150",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 20",
+                address: "8.31.99.149",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
                 name: "Cash Shop",
-                address: "109.234.77.13",
-                port: "8787",
+                address: "8.31.99.192",
+                port: "8786",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Kradia"
-            }
-        ],
-        Demethos: [{
-                icon: "Demethos.png",
-                name: "Channel 1",
-                address: "109.234.77.31",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 2",
-                address: "109.234.77.32",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 3",
-                address: "109.234.77.32",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 4",
-                address: "109.234.77.33",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 5",
-                address: "109.234.77.33",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 6",
-                address: "109.234.77.34",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 7",
-                address: "109.234.77.34",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 8",
-                address: "109.234.77.35",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 9",
-                address: "109.234.77.35",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 10",
-                address: "109.234.77.36",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 11",
-                address: "109.234.77.36",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 12",
-                address: "109.234.77.37",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 13",
-                address: "109.234.77.37",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Channel 14",
-                address: "109.234.77.38",
-                port: "8587",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            },
-            {
-                icon: "Demethos.png",
-                name: "Cash Shop",
-                address: "109.234.77.13",
-                port: "8788",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Demethos"
-            }
-        ],
-        Supreme: [{
-                icon: "Supreme.png",
-                name: "Channel 1",
-                address: "109.234.77.38",
-                port: "8597",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Supreme"
-            },
-            {
-                icon: "Supreme.png",
-                name: "Cash Shop",
-                address: "109.234.77.13",
-                port: "8791",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Supreme"
+                rel: "Reboot"
             }
         ],
         InternalWebsites: [{
                 icon: "Mushroom.png",
-                name: "MapleEurope",
-                address: "mapleeurope.com",
+                name: "MapleStory",
+                sub: "",
+                address: "maplestory.nexon.net",
                 port: "80",
-                interval: 60000,
-                rel: "mapleeu.com"
+                rel: "nexon.net"
             },
             {
                 icon: "Nexon.png",
-                name: "NexonEU",
-                sub: "www",
-                address: "nexoneu.com",
+                name: "Forum",
+                sub: "",
+                address: "forum2.nexon.net",
                 port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "Nexon.png",
-                name: "Billing",
-                address: "billing.nexoneu.com",
-                port: "443",
-                interval: 60000,
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "Nexon.png",
-                name: "Passport",
-                address: "passport.nexoneu.com",
-                port: "443",
-                interval: 60000,
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "Nexon.png",
-                name: "Company",
-                address: "company.nexoneu.com",
-                port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "Nexon.png",
-                name: "Forums",
-                address: "forum.nexoneu.com",
-                port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
+                rel: "nexon.net"
             },
             {
                 icon: "Nexon.png",
                 name: "Support",
-                address: "support.nexoneu.com",
+                sub: "",
+                address: "support.maplestory.nexon.net",
                 port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
+                rel: "nexon.net"
+            },
+            {
+                icon: "Nexon.png",
+                name: "Download",
+                sub: "",
+                address: "download2.nexon.net",
+                port: "80",
+                rel: "nexon.net"
+            },
+            {
+                icon: "Nexon.png",
+                name: "Press",
+                sub: "",
+                address: "press.nexon.net",
+                port: "80",
+                rel: "nexon.net"
             },
             {
                 icon: "fa-globe",
                 name: "Avatars",
-                sub: "MSE",
-                address: "avatar1.mapleeurope.com",
+                sub: "NXA",
+                address: "msavatar1.nexon.net",
                 port: "80",
-                rel: "mapleeu.com"
+                rel: "nexon.net"
             },
             {
                 icon: "fa-globe",
                 name: "Images",
-                sub: "NXEU",
-                address: "msimage.nexoneu.com",
+                sub: "NXA",
+                address: "nxcache.nexon.net",
                 port: "80",
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "fa-globe",
-                name: "Cache",
-                sub: "NXEU",
-                address: "cache.nexoneu.com",
-                port: "443",
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "fa-globe",
-                name: "Admin",
-                sub: "NXEU",
-                address: "admin.nexoneu.com",
-                port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "fa-globe",
-                name: "Event",
-                sub: "NXEU",
-                address: "event.nexoneu.com",
-                port: "80",
-                rel: "nexoneu.com"
+                rel: "nexon.net"
             },
             {
                 icon: "fa-globe",
                 name: "API",
-                sub: "NXEU",
-                address: "api.nexoneu.com",
+                sub: "NXA",
+                address: "api.nexon.net",
                 port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
+                rel: "nexon.net"
             },
             {
                 icon: "fa-globe",
-                name: "Auth02",
-                sub: "NXEU",
-                address: "auth02.nexoneu.com",
+                name: "Guard",
+                sub: "NXA",
+                address: "guard.nexon.net",
                 port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
+                rel: "nexon.net"
             }
         ],
         ExternalWebsites: [{
                 icon: "fa-external-link",
-                name: "Download",
-                sub: "MSE",
-                address: "download.mapleeurope.com",
+                name: "Google",
+                sub: "",
+                address: "google.com",
                 port: "80",
                 interval: 60000,
-                rel: "mapleeu.com"
-            },
-            {
-                icon: "fa-external-link",
-                name: "CDN",
-                sub: "MSE",
-                address: "mapleeuropecdn.nexoneu.com",
-                port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "fa-external-link",
-                name: "CSD",
-                sub: "MSE",
-                address: "mapleeuropecsd.nexoneu.com",
-                port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "fa-external-link",
-                name: "Download",
-                address: "download.nexoneu.com",
-                port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
-            },
-            {
-                icon: "fa-external-link",
-                name: "Patch",
-                address: "patch.nexoneu.com",
-                port: "80",
-                interval: 60000,
-                rel: "nexoneu.com"
+                rel: "google.com"
             }
         ]
     },
@@ -1451,7 +1261,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Monster Life",
-                address: "8.31.99.205", // verified (no change)
+                address: "34.217.198.173", // verified (no change)
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -2619,30 +2429,6 @@ var servers = {
                 rel: "nexon.net"
             },
             {
-                icon: "Mushroom.png",
-                name: "Tespia",
-                sub: "www",
-                address: "maplestoryt.nexon.net",
-                port: "80",
-                rel: "nexon.net"
-            },
-            {
-                icon: "Nexon.png",
-                name: "Nexon",
-                sub: "www",
-                address: "nexon.net",
-                port: "80",
-                rel: "nexon.net"
-            },
-            {
-                icon: "Nexon.png",
-                name: "Nexon",
-                sub: "SSL",
-                address: "nexon.net",
-                port: "443",
-                rel: "nexon.net"
-            },
-            {
                 icon: "Nexon.png",
                 name: "Forum",
                 sub: "",
@@ -2687,22 +2473,6 @@ var servers = {
                 name: "Images",
                 sub: "NXA",
                 address: "nxcache.nexon.net",
-                port: "80",
-                rel: "nexon.net"
-            },
-            {
-                icon: "fa-globe",
-                name: "Admin",
-                sub: "NXA",
-                address: "admin.nexon.net",
-                port: "80",
-                rel: "nexon.net"
-            },
-            {
-                icon: "fa-globe",
-                name: "Event",
-                sub: "NXA",
-                address: "event.nexon.net",
                 port: "80",
                 rel: "nexon.net"
             },
