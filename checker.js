@@ -25,7 +25,7 @@ if (hash.length) {
             //case "#JMS":
         case "#KMS":
         case "#MSEA":
-            //case "#MS2":
+        case "#MS2":
             selected = hash[0].replace('#', '');
             break;
         default:
@@ -3873,6 +3873,1014 @@ var servers = {
                 rel: "Jynarvis"
             }
         ]
+    },
+    MS2:{
+        Login: [{
+                icon: "Generic.png",
+                name: "Login 1",
+                address: "121.52.202.8",
+                port: "8484",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Login"
+            },
+            {
+                icon: "Generic.png",
+                name: "Login 2",
+                address: "121.52.202.9",
+                port: "8484",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Login"
+            },
+            {
+                icon: "Generic.png",
+                name: "Login 3",
+                address: "121.52.202.122",
+                port: "8484",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Login"
+            },
+            {
+                icon: "Generic.png",
+                name: "Login 4",
+                address: "121.52.202.81",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Login"
+            }
+        ],
+        NAWest: [{
+                icon: "Aquil.png",
+                name: "Channel 1",
+                address: "121.52.202.15",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 2",
+                address: "121.52.202.15",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 3",
+                address: "121.52.202.16",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 4",
+                address: "121.52.202.16",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 5",
+                address: "121.52.202.17",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 6",
+                address: "121.52.202.17",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 7",
+                address: "121.52.202.18",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 8",
+                address: "121.52.202.18",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 9",
+                address: "121.52.202.19",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 10",
+                address: "121.52.202.19",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 11",
+                address: "121.52.202.20",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 12",
+                address: "121.52.202.20",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 13",
+                address: "121.52.202.21",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 14",
+                address: "121.52.202.21",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 15",
+                address: "121.52.202.22",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 16",
+                address: "121.52.202.22",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 17",
+                address: "121.52.202.23",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 18",
+                address: "121.52.202.23",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 19",
+                address: "121.52.202.24",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Channel 20",
+                address: "121.52.202.24",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            },
+            {
+                icon: "Aquil.png",
+                name: "Cash Shop",
+                address: "121.52.202.12",
+                port: "8787",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAWest"
+            }
+        ],
+        NAEast: [{
+                icon: "Boote.png",
+                name: "Channel 1",
+                address: "121.52.202.35",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 2",
+                address: "121.52.202.35",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 3",
+                address: "121.52.202.36",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 4",
+                address: "121.52.202.36",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 5",
+                address: "121.52.202.37",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 6",
+                address: "121.52.202.37",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 7",
+                address: "121.52.202.38",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 8",
+                address: "121.52.202.38",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 9",
+                address: "121.52.202.39",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 10",
+                address: "121.52.202.39",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 11",
+                address: "121.52.202.40",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 12",
+                address: "121.52.202.40",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 13",
+                address: "121.52.202.41",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 14",
+                address: "121.52.202.41",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 15",
+                address: "121.52.202.42",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 16",
+                address: "121.52.202.42",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 17",
+                address: "121.52.202.43",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 18",
+                address: "121.52.202.43",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 19",
+                address: "121.52.202.44",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Channel 20",
+                address: "121.52.202.44",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Cash Shop",
+                address: "121.52.202.12",
+                port: "8788",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            },
+            {
+                icon: "Boote.png",
+                name: "Monster Life",
+                address: "121.52.202.12",
+                port: "9501",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "NAEast"
+            }
+        ],
+        Europe: [{
+                icon: "Cassiopei.png",
+                name: "Channel 1",
+                address: "121.52.202.51",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 2",
+                address: "121.52.202.51",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 3",
+                address: "121.52.202.52",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 4",
+                address: "121.52.202.52",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 5",
+                address: "121.52.202.53",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 6",
+                address: "121.52.202.53",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 7",
+                address: "121.52.202.54",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 8",
+                address: "121.52.202.54",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 9",
+                address: "121.52.202.55",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 10",
+                address: "121.52.202.55",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 11",
+                address: "121.52.202.56",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 12",
+                address: "121.52.202.56",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 13",
+                address: "121.52.202.57",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 14",
+                address: "121.52.202.57",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 15",
+                address: "121.52.202.58",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 16",
+                address: "121.52.202.58",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 17",
+                address: "121.52.202.59",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 18",
+                address: "121.52.202.59",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 19",
+                address: "121.52.202.60",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Channel 20",
+                address: "121.52.202.60",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            },
+            {
+                icon: "Cassiopei.png",
+                name: "Cash Shop",
+                address: "121.52.202.12",
+                port: "8789",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Europe"
+            }
+        ],
+        Oceania: [{
+                icon: "fa-question",
+                name: "Channel 1",
+                address: "121.52.202.26",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 2",
+                address: "121.52.202.26",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 3",
+                address: "121.52.202.27",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 4",
+                address: "121.52.202.27",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 5",
+                address: "121.52.202.28",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 6",
+                address: "121.52.202.28",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 7",
+                address: "121.52.202.29",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 8",
+                address: "121.52.202.29",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 9",
+                address: "121.52.202.30",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 10",
+                address: "121.52.202.30",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 11",
+                address: "121.52.202.26",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 12",
+                address: "121.52.202.27",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 13",
+                address: "121.52.202.28",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 14",
+                address: "121.52.202.29",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 15",
+                address: "121.52.202.30",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            },
+            {
+                icon: "fa-question",
+                name: "Cash Shop",
+                address: "121.52.202.12",
+                port: "8791",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Oceania"
+            }
+        ],
+		SouthAmerica: [{
+                icon: "fa-question",
+                name: "Channel 1",
+                address: "121.52.202.26",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 2",
+                address: "121.52.202.26",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 3",
+                address: "121.52.202.27",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 4",
+                address: "121.52.202.27",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 5",
+                address: "121.52.202.28",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 6",
+                address: "121.52.202.28",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 7",
+                address: "121.52.202.29",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 8",
+                address: "121.52.202.29",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 9",
+                address: "121.52.202.30",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 10",
+                address: "121.52.202.30",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 11",
+                address: "121.52.202.26",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 12",
+                address: "121.52.202.27",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 13",
+                address: "121.52.202.28",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 14",
+                address: "121.52.202.29",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Channel 15",
+                address: "121.52.202.30",
+                port: "8587",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            },
+            {
+                icon: "fa-question",
+                name: "Cash Shop",
+                address: "121.52.202.12",
+                port: "8791",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "SouthAmerica"
+            }
+        ]
     }
 }
 
@@ -4318,7 +5326,7 @@ var checker = {
             icon: "MS2Scania.png",
             short: "MapleStory 2",
             serverCount: [
-                5
+                6
             ],
             applications: [
                 GameServer("MS2", 8, [{
