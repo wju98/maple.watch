@@ -171,7 +171,7 @@ var servers = {
         Login: [{
             icon: "Mushroom.png",
             name: "Login",
-            address: "109.234.77.11",
+            address: "18.196.14.103",
             port: "8484",
             interval: 5000,
             values: [],
@@ -660,7 +660,7 @@ var servers = {
         Login: [{
                 icon: "Mushroom.png",
                 name: "Login 1",
-                address: "8.31.99.141", // Verified as of Jan 28th 2017
+                address: "34.215.62.60", // Verified as of Jan 28th 2017
                 port: "8484",
                 interval: 5000,
                 values: [],
@@ -670,7 +670,7 @@ var servers = {
             {
                 icon: "Mushroom.png",
                 name: "Login 2",
-                address: "8.31.99.142", // Verified as of Jan 28th 2017
+                address: "35.167.153.201", // Verified as of Jan 28th 2017
                 port: "8484",
                 interval: 5000,
                 values: [],
@@ -1232,7 +1232,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Cash Shop",
-                address: "8.31.99.193", // Verified as of Jan 28th 2017
+                address: "54.203.24.179", // Verified as of Jan 28th 2017
                 port: "8785",
                 interval: 5000,
                 values: [],
@@ -1242,7 +1242,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Monster Life",
-                address: "34.217.198.173", // verified (no change)
+                address: "34.217.198.173",
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -1251,9 +1251,9 @@ var servers = {
             },
             {
                 icon: "Bera.png",
-                name: "Evolution Lab",
-                address: "8.31.99.197",
-                port: "8586",
+                name: "Auction House",
+                address: "34.209.161.140",
+                port: "8786",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -2190,206 +2190,306 @@ var servers = {
                 }
             ]
         },
-        Reboot: [{
-                icon: "Reboot.png",
-                name: "Channel 1",
-                address: "8.31.99.161",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 2",
-                address: "8.31.99.135",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 3",
-                address: "8.31.99.237",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 4",
-                address: "8.31.99.136",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 5",
-                address: "8.31.99.162",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 6",
-                address: "8.31.99.137",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 7",
-                address: "8.31.99.195",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 8",
-                address: "8.31.99.138",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 9",
-                address: "8.31.99.163",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 10",
-                address: "8.31.99.144",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 11",
-                address: "8.31.99.196",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 12",
-                address: "8.31.99.145",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 13",
-                address: "8.31.99.157",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 14",
-                address: "8.31.99.146",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 15",
-                address: "8.31.99.197",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 16",
-                address: "8.31.99.158",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 17",
-                address: "8.31.99.147",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 18",
-                address: "8.31.99.148",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 19",
-                address: "8.31.99.150",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
-            {
-                icon: "Reboot.png",
-                name: "Channel 20",
-                address: "8.31.99.149",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Reboot"
-            },
+                Reboot: [{
+					icon: "Reboot.png",
+					name: "Channel 1",
+					address: "35.155.204.207",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 2",
+					address: "52.26.82.74",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 3",
+					address: "34.217.205.66",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 4",
+					address: "54.148.188.235",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 5",
+					address: "54.218.157.183",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 6",
+					address: "54.68.160.34",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 7",
+					address: "52.25.78.39",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 8",
+					address: "52.33.249.126",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 9",
+					address: "34.218.141.142",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 10",
+					address: "54.148.170.23",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 11",
+					address: "54.191.142.56",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 12",
+					address: "54.201.184.26",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 13",
+					address: "52.13.185.207",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 14",
+					address: "34.215.228.37",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 15",
+					address: "54.187.177.143",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 16",
+					address: "54.203.83.148",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 17",
+					address: "35.161.183.101",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 18",
+					address: "52.43.83.76",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 19",
+					address: "54.69.114.137",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 20",
+					address: "54.148.137.49",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 21",
+					address: "52.41.30.146",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 22",
+					address: "54.71.213.71",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 23",
+					address: "52.37.173.14",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 24",
+					address: "52.13.213.95",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 25",
+					address: "52.37.134.9",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 26",
+					address: "54.245.7.196",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 27",
+					address: "52.35.213.122",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 28",
+					address: "54.186.117.89",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+				  {
+					icon: "Reboot.png",
+					name: "Channel 29",
+					address: "35.165.176.212",
+					port: 8585,
+					interval: 5000,
+					values: [],
+					isMapleStoryGameServer: true,
+					rel: "Reboot"
+				  },
+			  {
+				icon: "Reboot.png",
+				name: "Channel 30",
+				address: "54.189.196.109",
+				port: 8585,
+				interval: 5000,
+				values: [],
+				isMapleStoryGameServer: true,
+				rel: "Reboot"
+			  },
             {
                 icon: "Reboot.png",
                 name: "Cash Shop",
@@ -4212,12 +4312,60 @@ var checker = {
         },
         {
             abbr: "MS2",
-            name: "MapleStory 2 CBT <small>(메이플스토리2)</small>",
-            available: false,
+            name: "MapleStory 2 <small>(메이플스토리2)</small>",
+            available: true,
             complete: false,
             icon: "MS2Scania.png",
-            short: "MapleStory 2 CBT",
-            applications: []
+            short: "MapleStory 2",
+            serverCount: [
+                5
+            ],
+            applications: [
+                GameServer("MS2", 8, [{
+                        icon: "Mushroom.png",
+                        name: "Login",
+                        english: false,
+                        sub: ""
+                    },
+                    {
+                        icon: "Mushroom.png",
+                        name: "NAWest",
+                        english: false,
+                        sub: "World"
+                    },
+                    {
+                        icon: "Mushroom.png",
+                        name: "NAEast",
+                        english: false,
+                        sub: "World"
+                    },
+                    {
+                        icon: "Mushroom.png",
+                        name: "Europe",
+                        english: false,
+                        sub: "World"
+                    },
+                    {
+                        icon: "Mushroom.png",
+                        name: "Oceania",
+                        english: false,
+                        sub: "World"
+                    },
+                    {
+                        icon: "Mushroom.png",
+                        name: "SouthAmerica",
+                        english: false,
+                        sub: "World"
+                    } 
+                ], [
+                    servers.MS2.Login,
+                    servers.MS2.NAWest,
+                    servers.MS2.NAEast,
+                    servers.MS2.Europe,
+                    servers.MS2.Oceania,
+                    servers.MS2.SouthAmerica
+                ])
+            ]
         }
     ],
     updateSelectedServers: UpdateSelectedServers,
