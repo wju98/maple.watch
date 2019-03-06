@@ -25,7 +25,7 @@ if (hash.length) {
             //case "#JMS":
         case "#KMS":
         case "#MSEA":
-		case "#THMS"
+		case "#THMS":
         case "#MS2":
             selected = hash[0].replace('#', '');
             break;
@@ -3058,7 +3058,7 @@ var servers = {
             }
         ]
     },
-MSEA: {
+    MSEA: {
         Login: [{
                 icon: "Mushroom.png",
                 name: "Login 1",
@@ -6122,6 +6122,8 @@ function GetDefaultSubSelectionForVersion(version) {
             return '스카니아';
         case 'MSEA':
             return 'Login';
+		case 'MS2':
+		    return 'Login';
         default:
             return;
     }
