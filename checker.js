@@ -25,6 +25,7 @@ if (hash.length) {
             //case "#JMS":
         case "#KMS":
         case "#MSEA":
+		case "#THMS"
         case "#MS2":
             selected = hash[0].replace('#', '');
             break;
@@ -1231,7 +1232,7 @@ var servers = {
             },
 			{
                 icon: "Bera.png",
-                name: "Commerci Union 1",
+                name: "Commerci PQ 1",
                 address: "54.70.148.148",
                 port: "8585",
                 interval: 5000,
@@ -1241,7 +1242,7 @@ var servers = {
             },
 			{
                 icon: "Bera.png",
-                name: "Commerci Union 2",
+                name: "Commerci PQ 2",
                 address: "50.112.51.145",
                 port: "8586",
                 interval: 5000,
@@ -1251,7 +1252,7 @@ var servers = {
             },
 			{
                 icon: "Bera.png",
-                name: "Commerci Union 3",
+                name: "Commerci PQ 3",
                 address: "35.164.186.245",
                 port: "8587",
                 interval: 5000,
@@ -3057,11 +3058,11 @@ var servers = {
             }
         ]
     },
-    MSEA: {
+MSEA: {
         Login: [{
-                icon: "Ares.png",
-                name: "Ares 1",
-                address: "121.52.202.8",
+                icon: "Mushroom.png",
+                name: "Login 1",
+                address: "121.52.202.7",
                 port: "8484",
                 interval: 5000,
                 values: [],
@@ -3069,19 +3070,9 @@ var servers = {
                 rel: "Login"
             },
             {
-                icon: "Ares.png",
-                name: "Ares 2",
+                icon: "Mushroom.png",
+                name: "Login 2",
                 address: "121.52.202.9",
-                port: "8484",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Login"
-            },
-            {
-                icon: "Artemis.png",
-                name: "Artemis",
-                address: "121.52.202.122",
                 port: "8484",
                 interval: 5000,
                 values: [],
@@ -3112,8 +3103,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 2",
-                address: "121.52.202.15",
-                port: "8586",
+                address: "121.52.202.16",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3122,7 +3113,7 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 3",
-                address: "121.52.202.16",
+                address: "121.52.202.17",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3132,8 +3123,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 4",
-                address: "121.52.202.16",
-                port: "8586",
+                address: "121.52.202.18",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3142,7 +3133,7 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 5",
-                address: "121.52.202.17",
+                address: "121.52.202.19",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3152,8 +3143,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 6",
-                address: "121.52.202.17",
-                port: "8586",
+                address: "121.52.202.20",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3162,7 +3153,7 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 7",
-                address: "121.52.202.18",
+                address: "121.52.202.21",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3172,8 +3163,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 8",
-                address: "121.52.202.18",
-                port: "8586",
+                address: "121.52.202.22",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3182,7 +3173,7 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 9",
-                address: "121.52.202.19",
+                address: "121.52.202.23",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3192,8 +3183,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 10",
-                address: "121.52.202.19",
-                port: "8586",
+                address: "121.52.202.24",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3202,7 +3193,7 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 11",
-                address: "121.52.202.20",
+                address: "121.52.202.25",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3212,8 +3203,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 12",
-                address: "121.52.202.20",
-                port: "8586",
+                address: "121.52.202.26",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3222,7 +3213,7 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 13",
-                address: "121.52.202.21",
+                address: "121.52.202.27",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3232,8 +3223,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 14",
-                address: "121.52.202.21",
-                port: "8586",
+                address: "121.52.202.28",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3242,7 +3233,7 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 15",
-                address: "121.52.202.22",
+                address: "121.52.202.29",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3252,8 +3243,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 16",
-                address: "121.52.202.22",
-                port: "8586",
+                address: "121.52.202.30",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3262,7 +3253,7 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 17",
-                address: "121.52.202.23",
+                address: "121.52.202.31",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3272,8 +3263,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 18",
-                address: "121.52.202.23",
-                port: "8586",
+                address: "121.52.202.32",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3282,7 +3273,7 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 19",
-                address: "121.52.202.24",
+                address: "121.52.202.33",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3292,8 +3283,8 @@ var servers = {
             {
                 icon: "Aquila.png",
                 name: "Channel 20",
-                address: "121.52.202.24",
-                port: "8586",
+                address: "121.52.202.34",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3304,6 +3295,16 @@ var servers = {
                 name: "Cash Shop",
                 address: "121.52.202.12",
                 port: "8787",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Aquila"
+            },
+			{
+                icon: "Aquila.png",
+                name: "Auction",
+                address: "121.52.202.85",
+                port: "9000",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3323,8 +3324,8 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 2",
-                address: "121.52.202.35",
-                port: "8586",
+                address: "121.52.202.36",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3333,7 +3334,7 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 3",
-                address: "121.52.202.36",
+                address: "121.52.202.37",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3343,8 +3344,8 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 4",
-                address: "121.52.202.36",
-                port: "8586",
+                address: "121.52.202.38",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3353,7 +3354,7 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 5",
-                address: "121.52.202.37",
+                address: "121.52.202.39",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3363,8 +3364,8 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 6",
-                address: "121.52.202.37",
-                port: "8586",
+                address: "121.52.202.40",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3373,7 +3374,7 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 7",
-                address: "121.52.202.38",
+                address: "121.52.202.41",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3383,8 +3384,8 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 8",
-                address: "121.52.202.38",
-                port: "8586",
+                address: "121.52.202.42",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3393,7 +3394,7 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 9",
-                address: "121.52.202.39",
+                address: "121.52.202.43",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3403,17 +3404,7 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 10",
-                address: "121.52.202.39",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Bootes"
-            },
-            {
-                icon: "Bootes.png",
-                name: "Channel 11",
-                address: "121.52.202.40",
+                address: "121.52.202.44",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3422,8 +3413,18 @@ var servers = {
             },
             {
                 icon: "Bootes.png",
+                name: "Channel 11",
+                address: "121.52.202.35",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bootes"
+            },
+            {
+                icon: "Bootes.png",
                 name: "Channel 12",
-                address: "121.52.202.40",
+                address: "121.52.202.36",
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -3433,8 +3434,8 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 13",
-                address: "121.52.202.41",
-                port: "8585",
+                address: "121.52.202.37",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3443,7 +3444,7 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 14",
-                address: "121.52.202.41",
+                address: "121.52.202.38",
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -3453,8 +3454,8 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 15",
-                address: "121.52.202.42",
-                port: "8585",
+                address: "121.52.202.39",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3463,7 +3464,7 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 16",
-                address: "121.52.202.42",
+                address: "121.52.202.40",
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -3473,8 +3474,8 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 17",
-                address: "121.52.202.43",
-                port: "8585",
+                address: "121.52.202.41",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3483,7 +3484,7 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 18",
-                address: "121.52.202.43",
+                address: "121.52.202.42",
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -3493,8 +3494,8 @@ var servers = {
             {
                 icon: "Bootes.png",
                 name: "Channel 19",
-                address: "121.52.202.44",
-                port: "8585",
+                address: "121.52.202.43",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3520,11 +3521,11 @@ var servers = {
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
             },
-            {
+			{
                 icon: "Bootes.png",
-                name: "Monster Life",
-                address: "121.52.202.12",
-                port: "9501",
+                name: "Auction",
+                address: "121.52.202.86",
+                port: "9000",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3544,8 +3545,8 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 2",
-                address: "121.52.202.51",
-                port: "8586",
+                address: "121.52.202.52",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3554,7 +3555,7 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 3",
-                address: "121.52.202.52",
+                address: "121.52.202.53",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3564,8 +3565,8 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 4",
-                address: "121.52.202.52",
-                port: "8586",
+                address: "121.52.202.54",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3574,7 +3575,7 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 5",
-                address: "121.52.202.53",
+                address: "121.52.202.55",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3584,8 +3585,8 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 6",
-                address: "121.52.202.53",
-                port: "8586",
+                address: "121.52.202.56",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3594,7 +3595,7 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 7",
-                address: "121.52.202.54",
+                address: "121.52.202.57",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3604,8 +3605,8 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 8",
-                address: "121.52.202.54",
-                port: "8586",
+                address: "121.52.202.58",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3614,7 +3615,7 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 9",
-                address: "121.52.202.55",
+                address: "121.52.202.59",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3624,17 +3625,7 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 10",
-                address: "121.52.202.55",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Cassiopeia"
-            },
-            {
-                icon: "Cassiopeia.png",
-                name: "Channel 11",
-                address: "121.52.202.56",
+                address: "121.52.202.60",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -3643,8 +3634,18 @@ var servers = {
             },
             {
                 icon: "Cassiopeia.png",
+                name: "Channel 11",
+                address: "121.52.202.51",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Cassiopeia"
+            },
+            {
+                icon: "Cassiopeia.png",
                 name: "Channel 12",
-                address: "121.52.202.56",
+                address: "121.52.202.52",
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -3654,8 +3655,8 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 13",
-                address: "121.52.202.57",
-                port: "8585",
+                address: "121.52.202.53",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3664,7 +3665,7 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 14",
-                address: "121.52.202.57",
+                address: "121.52.202.54",
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -3674,8 +3675,8 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 15",
-                address: "121.52.202.58",
-                port: "8585",
+                address: "121.52.202.55",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3684,7 +3685,7 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 16",
-                address: "121.52.202.58",
+                address: "121.52.202.56",
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -3694,8 +3695,8 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 17",
-                address: "121.52.202.59",
-                port: "8585",
+                address: "121.52.202.57",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3704,7 +3705,7 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 18",
-                address: "121.52.202.59",
+                address: "121.52.202.58",
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -3714,8 +3715,8 @@ var servers = {
             {
                 icon: "Cassiopeia.png",
                 name: "Channel 19",
-                address: "121.52.202.60",
-                port: "8585",
+                address: "121.52.202.59",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
@@ -3740,167 +3741,666 @@ var servers = {
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
+            },
+			{
+                icon: "Cassiopeia.png",
+                name: "Auction",
+                address: "121.52.202.87",
+                port: "9000",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Cassiopeia"
             }
         ],
-        Jynarvis: [{
-                icon: "fa-question",
+        D2J: [{
+                icon: "D2J.png",
                 name: "Channel 1",
-                address: "121.52.202.26",
+                address: "121.52.202.61",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 2",
-                address: "121.52.202.26",
-                port: "8586",
+                address: "121.52.202.62",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 3",
-                address: "121.52.202.27",
+                address: "121.52.202.63",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 4",
-                address: "121.52.202.27",
-                port: "8586",
+                address: "121.52.202.64",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 5",
-                address: "121.52.202.28",
+                address: "121.52.202.65",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 6",
-                address: "121.52.202.28",
-                port: "8586",
+                address: "121.52.202.66",
+                port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 7",
-                address: "121.52.202.29",
+                address: "121.52.202.67",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 8",
-                address: "121.52.202.29",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Jynarvis"
-            },
-            {
-                icon: "fa-question",
-                name: "Channel 9",
-                address: "121.52.202.30",
+                address: "121.52.202.68",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
+                name: "Channel 9",
+                address: "121.52.202.69",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "D2J"
+            },
+            {
+                icon: "D2J.png",
                 name: "Channel 10",
-                address: "121.52.202.30",
+                address: "121.52.202.70",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "D2J"
+            },
+            {
+                icon: "D2J.png",
+                name: "Channel 11",
+                address: "121.52.202.61",
                 port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
-                name: "Channel 11",
-                address: "121.52.202.26",
-                port: "8587",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "Jynarvis"
-            },
-            {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 12",
-                address: "121.52.202.27",
-                port: "8587",
+                address: "121.52.202.62",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 13",
-                address: "121.52.202.28",
-                port: "8587",
+                address: "121.52.202.63",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 14",
-                address: "121.52.202.29",
-                port: "8587",
+                address: "121.52.202.64",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Channel 15",
-                address: "121.52.202.30",
-                port: "8587",
+                address: "121.52.202.65",
+                port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
+            },
+			{
+                icon: "D2J.png",
+                name: "Channel 16",
+                address: "121.52.202.66",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "D2J"
+            },
+			{
+                icon: "D2J.png",
+                name: "Channel 17",
+                address: "121.52.202.67",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "D2J"
+            },
+			{
+                icon: "D2J.png",
+                name: "Channel 18",
+                address: "121.52.202.68",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "D2J"
+            },
+			{
+                icon: "D2J.png",
+                name: "Channel 19",
+                address: "121.52.202.69",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "D2J"
+            },
+			{
+                icon: "D2J.png",
+                name: "Channel 20",
+                address: "121.52.202.70",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "D2J"
             },
             {
-                icon: "fa-question",
+                icon: "D2J.png",
                 name: "Cash Shop",
                 address: "121.52.202.12",
-                port: "8791",
+                port: "8790",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "Jynarvis"
+                rel: "D2J"
+            },
+			{
+                icon: "D2J.png",
+                name: "Auction",
+                address: "121.52.202.88",
+                port: "9000",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "D2J"
+            },
+        ]
+    },
+	THMS: {
+        Login: [{
+            icon: "Mushroom.png",
+            name: "Login",
+            address: "175.207.0.34",
+            port: "8484",
+            interval: 5000,
+            values: [],
+            isMapleStoryGameServer: true,
+            rel: "Login"
+        }],
+        'สคาเนีย': [{
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 1",
+                address: "13.228.80.96",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 2",
+                address: "13.228.80.96",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 3",
+                address: "13.228.76.20",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 4",
+                address: "13.228.76.20",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 5",
+                address: "13.228.42.166",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 6",
+                address: "13.228.42.166",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 7",
+                address: "13.228.52.228",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 8",
+                address: "13.228.52.228",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 9",
+                address: "13.228.80.94",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 10",
+                address: "13.228.80.94",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 11",
+                address: "13.228.80.27",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 12",
+                address: "13.228.80.27",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 13",
+                address: "13.228.45.25",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 14",
+                address: "13.228.45.25",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 15",
+                address: "13.228.80.54",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 16",
+                address: "13.228.80.54",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 17",
+                address: "13.228.45.138",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 18",
+                address: "13.228.45.138",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 19",
+                address: "13.228.58.55",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+			{
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Channel 20",
+                address: "13.228.58.55",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },
+            {
+                icon: "Scania.png",
+                english: "Scania",
+                name: "Cash Shop - ปิดใช้งาน",
+                address: "ahri.in.th",
+                port: "8780",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "สคาเนีย"
+            },			
+        ],
+        // IE fails here, that's why the Korean text is wrapped in quotes.
+        'เบร่า': [{
+                icon: "Bera.png",
+                english: "Bera",
+                name: "Channel 1",
+                address: "175.207.0.70",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "เบร่า"
+            },
+            {
+                icon: "Bera.png",
+                english: "Bera",
+                name: "Ch. 20세이상",
+                address: "175.207.0.70",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "เบร่า"
+            }
+        ],
+        'ลูน่า': [{
+                icon: "Luna.png",
+                english: "Luna",
+                name: "Channel 1",
+                address: "175.207.0.80",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "ลูน่า"
+            },
+            {
+                icon: "Luna.png",
+                english: "Luna",
+                name: "Ch. 20세이상",
+                address: "175.207.0.80",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "ลูน่า"
+            }
+        ],
+        'เซนิท': [{
+                icon: "Zenith.png",
+                english: "Zenith",
+                name: "Channel 1",
+                address: "175.207.0.85",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "เซนิท"
+            },
+            {
+                icon: "Zenith.png",
+                english: "Zenith",
+                name: "Ch. 20세이상",
+                address: "175.207.0.85",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "เซนิท"
+            }
+        ],
+        'โครอา': [{
+                icon: "Croa.png",
+                english: "Croa",
+                name: "Channel 1",
+                address: "175.207.0.90",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "โครอา"
+            },
+            {
+                icon: "Croa.png",
+                english: "Croa",
+                name: "Ch. 20세이상",
+                address: "175.207.0.90",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "โครอา"
+            }
+        ],
+        'อิลิเซียม': [{
+                icon: "Elysium.png",
+                english: "Elysium",
+                name: "Channel 1",
+                address: "175.207.0.140",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "อิลิเซียม"
+            },
+            {
+                icon: "Elysium.png",
+                english: "Elysium",
+                name: "Ch. 20세이상",
+                address: "175.207.0.140",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "อิลิเซียม"
+            }
+        ],
+        'อิโนซิส': [{
+                icon: "Enosis.png",
+                english: "Enosis",
+                name: "Channel 1",
+                address: "175.207.0.165",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "อิโนซิส"
+            },
+            {
+                icon: "Enosis.png",
+                english: "Enosis",
+                name: "Ch. 20세이상",
+                address: "175.207.0.165",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "อิโนซิส"
+            }
+        ],
+        'เรด': [{
+                icon: "Red.png",
+                english: "Red",
+                name: "Channel 1",
+                address: "175.207.0.235",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "เรด"
+            },
+            {
+                icon: "Red.png",
+                english: "Red",
+                name: "Ch. 20세이상",
+                address: "175.207.0.235",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "เรด"
+            }
+        ],
+        'ออโรรา': [{
+                icon: "Aurora.png",
+                english: "Aurora",
+                name: "Channel 1",
+                address: "175.207.0.230",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "ออโรรา"
+            },
+            {
+                icon: "Aurora.png",
+                english: "Aurora",
+                name: "Ch. 20세이상",
+                address: "175.207.0.230",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "ออโรรา"
             }
         ]
     },
@@ -4928,7 +5428,7 @@ var checker = {
             available: true,
             complete: true,
             icon: "Luna.png",
-            short: "EUROPE",
+            short: "Europe",
             serverCount: [
                 3,
                 1,
@@ -5315,8 +5815,8 @@ var checker = {
                     		sub: "World"
                     	},*/
                     {
-                        icon: "fa-question",
-                        name: "Jynarvis",
+                        icon: "D2J.png",
+                        name: "D2J",
                         english: false,
                         sub: "World"
                     }
@@ -5344,7 +5844,95 @@ var checker = {
                     servers.MSEA.Aquila,
                     servers.MSEA.Bootes,
                     servers.MSEA.Cassiopeia,
-                    servers.MSEA.Jynarvis
+                    servers.MSEA.D2J
+                ])
+            ]
+        },
+        {
+            abbr: "THMS",
+            name: "MapleStory Thailand",
+            available: true,
+            complete: false,
+            icon: "Mushroom.png",
+            short: "ไทย | Thailand",
+            serverCount: [
+                11
+            ],
+            applications: [
+                GameServer("Thailand", 9, [{
+                        icon: "Mushroom.png",
+                        name: "Login",
+                        english: false,
+                        sub: ""
+                    },
+                    {
+                        icon: "Scania.png",
+                        name: "สคาเนีย",
+                        english: "Scania",
+                        sub: "World"
+                    },
+					/*
+                    {
+                        icon: "Bera.png",
+                        name: "เบร่า",
+                        english: "Bera",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Luna.png",
+                        name: "ลูน่า",
+                        english: "Luna",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Zenith.png",
+                        name: "เซนิท",
+                        english: "Zenith",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Croa.png",
+                        name: "โครอา",
+                        english: "Croa",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Elysium.png",
+                        name: "อิลิเซียม",
+                        english: "Elysium",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Enosis.png",
+                        name: "อิโนซิส",
+                        english: "Enosis",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Red.png",
+                        name: "เรด",
+                        english: "Red",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Aurora.png",
+                        name: "ออโรรา",
+                        english: "Aurora",
+                        sub: "World"
+                    }
+					*/
+                ], [
+                    servers.THMS.Login,
+                    // Not using dot notation because IE sucks.
+                    servers.THMS['สคาเนีย'],
+                    servers.THMS['เบร่า'],
+                    servers.THMS['ลูน่า'],
+                    servers.THMS['เซนิท'],
+                    servers.THMS['โครอา'],
+                    servers.THMS['อิลิเซียม'],
+                    servers.THMS['อิโนซิส'],
+                    servers.THMS['เรด'],
+                    servers.THMS['ออโรรา']
                 ])
             ]
         },
@@ -5455,6 +6043,24 @@ function GetEnglishIconNameForServer(serverName) {
             return "Aurora";
         case "Login":
             return "Mushroom";
+        case "สคาเนีย":
+            return "Scania";
+        case "เบร่า":
+            return "Bera";
+        case "ลูน่า":
+            return "Luna";
+        case "เซนิท":
+            return "Zenith";
+        case "โครอา":
+            return "Croa";
+        case "อิลิเซียม":
+            return "Elysium";
+        case "อิโนซิส":
+            return "Enosis";
+        case "เรด":
+            return "Red";
+        case "ออโรรา":
+            return "Aurora";
         default:
             return serverName;
     }
