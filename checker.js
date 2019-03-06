@@ -680,7 +680,7 @@ var servers = {
             {
                 icon: "Mushroom.png",
                 name: "Login 3",
-                address: "8.31.99.143", // Verified as of Jan 28th 2017
+                address: "52.37.193.138", // Verified as of Jan 28th 2017
                 port: "8484",
                 interval: 5000,
                 values: [],
@@ -1224,6 +1224,36 @@ var servers = {
                 name: "Channel 30", // Verified as of Jan 28th 2017
                 address: "52.43.146.238",
                 port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+			{
+                icon: "Bera.png",
+                name: "Commerci Union 1",
+                address: "54.70.148.148",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+			{
+                icon: "Bera.png",
+                name: "Commerci Union 2",
+                address: "50.112.51.145",
+                port: "8586",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+			{
+                icon: "Bera.png",
+                name: "Commerci Union 3",
+                address: "35.164.186.245",
+                port: "8587",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
