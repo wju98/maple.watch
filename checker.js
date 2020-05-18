@@ -1143,7 +1143,7 @@ var servers = {
 			{
                 icon: "Bera.png",
                 name: "CPQ/DIPQ/EvoLab 2",
-                address: "50.112.51.145",
+                address: "54.70.148.148", // 50.112.51.145 previously
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -1153,7 +1153,7 @@ var servers = {
 			{
                 icon: "Bera.png",
                 name: "CPQ/DIPQ/EvoLab 3",
-                address: "35.164.186.245",
+                address: "54.70.148.148", // 35.164.186.245 previously
                 port: "8587",
                 interval: 5000,
                 values: [],
@@ -1162,9 +1162,29 @@ var servers = {
             },
             {
                 icon: "Bera.png",
-                name: "Cash Shop",
+                name: "Cash Shop 1",
                 address: "54.203.24.179", // Verified as of 
                 port: "8785",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Cash Shop 2",
+                address: "54.203.24.179", // Verified as of 
+                port: "8786",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Cash Shop 3",
+                address: "54.203.24.179", // Verified as of 
+                port: "8787",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
