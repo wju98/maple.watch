@@ -933,7 +933,7 @@ var servers = {
         Bera: [{
                 icon: "Bera.png",
                 name: "Channel 1",
-                address: "54.186.151.49", // Verified as of 
+                address: "54.186.151.49", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -943,7 +943,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 2",
-                address: "54.214.207.253", // Verified as of 
+                address: "54.214.207.253", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -953,7 +953,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 3",
-                address: "34.214.214.251", // Verified as of 
+                address: "34.214.214.251", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -963,7 +963,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 4",
-                address: "35.165.105.161", // Verified as of 
+                address: "35.165.105.161", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -973,7 +973,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 5",
-                address: "35.167.16.143", // Verified as of 
+                address: "35.167.16.143", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -983,7 +983,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 6",
-                address: "52.40.39.138", // Verified as of 
+                address: "52.40.39.138", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -993,7 +993,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 7",
-                address: "54.68.47.217", // Verified as of 
+                address: "54.68.47.217", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1003,7 +1003,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 8",
-                address: "52.35.241.179", // Verified as of 
+                address: "52.35.241.179", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1013,7 +1013,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 9",
-                address: "34.218.68.31", // Verified as of 
+                address: "34.218.68.31", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1023,7 +1023,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 10",
-                address: "52.43.9.29", // Verified as of 
+                address: "52.43.9.29", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1033,7 +1033,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 11",
-                address: "54.213.64.154", // Verified as of 
+                address: "54.213.64.154", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1043,7 +1043,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 12",
-                address: "52.25.121.0", // Verified as of 
+                address: "52.25.121.0", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1053,7 +1053,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 13",
-                address: "54.148.5.57", // Verified as of 
+                address: "54.148.5.57", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1063,7 +1063,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 14",
-                address: "35.161.154.148", // Verified as of 
+                address: "35.161.154.148", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1073,7 +1073,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 15",
-                address: "54.203.140.45", // Verified as of 
+                address: "54.203.140.45", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1083,7 +1083,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 16",
-                address: "35.163.184.1", // Verified as of 
+                address: "35.163.184.1", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1093,7 +1093,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 17",
-                address: "34.218.100.191", // Verified as of 
+                address: "34.218.100.191", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1103,7 +1103,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 18",
-                address: "52.38.89.169", // Verified as of 
+                address: "52.38.89.169", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1113,7 +1113,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Channel 19",
-                address: "52.88.17.178", // Verified as of 
+                address: "52.88.17.178", // Verified as of 2020-06-10
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1122,8 +1122,108 @@ var servers = {
             },
             {
                 icon: "Bera.png",
-                name: "Channel 20", // Verified as of 
+                name: "Channel 20", // Verified as of 2020-06-10
                 address: "52.27.189.124",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 21", // Verified as of 2020-06-10
+                address: "54.185.114.1",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 22", // Verified as of 2020-06-10
+                address: "52.35.244.164",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 23", // Verified as of 2020-06-10
+                address: "54.188.77.194",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 24", // Verified as of 2020-06-10
+                address: "54.188.54.110",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 25", // Verified as of 2020-06-10
+                address: "54.69.112.20",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 26", // Verified as of 2020-06-10
+                address: "54.185.17.226",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 27", // Verified as of 2020-06-10
+                address: "54.188.58.179",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 28", // Verified as of 2020-06-10
+                address: "44.229.126.218",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 29", // Verified as of 2020-06-10
+                address: "52.39.65.13",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Bera"
+            },
+            {
+                icon: "Bera.png",
+                name: "Channel 30", // Verified as of 2020-06-10
+                address: "54.190.177.113",
                 port: "8585",
                 interval: 5000,
                 values: [],
@@ -1132,7 +1232,7 @@ var servers = {
             },
 			{
                 icon: "Bera.png",
-                name: "CPQ/DIPQ/EvoLab 1",
+                name: "CPQ/DIPQ/EvoLab 1", // Verified as of 2020-06-10
                 address: "54.70.148.148",
                 port: "8585",
                 interval: 5000,
@@ -1143,7 +1243,7 @@ var servers = {
 			{
                 icon: "Bera.png",
                 name: "CPQ/DIPQ/EvoLab 2",
-                address: "54.70.148.148", // 50.112.51.145 previously
+                address: "54.70.148.148", // 50.112.51.145 previously, verified as of 2020-06-10
                 port: "8586",
                 interval: 5000,
                 values: [],
@@ -1153,7 +1253,7 @@ var servers = {
 			{
                 icon: "Bera.png",
                 name: "CPQ/DIPQ/EvoLab 3",
-                address: "54.70.148.148", // 35.164.186.245 previously
+                address: "54.70.148.148", // 35.164.186.245 previously, verified as of 2020-06-10
                 port: "8587",
                 interval: 5000,
                 values: [],
@@ -1173,7 +1273,7 @@ var servers = {
             {
                 icon: "Bera.png",
                 name: "Cash Shop 2",
-                address: "54.203.24.179", // Verified as of 
+                address: "54.203.24.179", // Verified as of 2020-06-10
                 port: "8786",
                 interval: 5000,
                 values: [],
@@ -1192,7 +1292,7 @@ var servers = {
             },
             {
                 icon: "Bera.png",
-                name: "Monster Life",
+                name: "Monster Life", // Verified as of 2020-06-10
                 address: "34.217.198.173",
                 port: "8586",
                 interval: 5000,
@@ -1202,7 +1302,7 @@ var servers = {
             },
             {
                 icon: "Bera.png",
-                name: "Auction House",
+                name: "Auction House", // Verified as of 2020-06-10
                 address: "34.209.161.140",
                 port: "8786",
                 interval: 5000,
@@ -1873,6 +1973,106 @@ var servers = {
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
 			},
+            {
+                icon: "Reboot.png",
+                name: "Channel 21", // Verified as of 
+                address: "52.24.238.235",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 22", // Verified as of 
+                address: "35.160.247.37",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 23", // Verified as of 
+                address: "35.161.55.91",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 24", // Verified as of 
+                address: "54.71.154.56",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 25", // Verified as of 
+                address: "35.165.211.200",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 26", // Verified as of 
+                address: "34.214.68.116",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 27", // Verified as of 
+                address: "50.112.183.141",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 28", // Verified as of 
+                address: "35.163.92.122",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 29", // Verified as of 
+                address: "34.213.203.40",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
+            {
+                icon: "Reboot.png",
+                name: "Channel 30", // Verified as of 
+                address: "52.43.146.238",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "Reboot"
+            },
 	        {
 		        icon: "Reboot.png",
 		        name: "CPQ/DIPQ/EvoLab 1",
