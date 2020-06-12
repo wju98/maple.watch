@@ -1565,7 +1565,7 @@ var servers = {
             {
                 icon: "Aurora.png",
                 name: "Channel 5",
-                address: "54.24.108.169", // Verified as of 
+                address: "52.24.108.169", // Verified as of 
                 port: "8585",
                 interval: 5000,
                 values: [],
