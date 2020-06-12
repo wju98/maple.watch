@@ -229,7 +229,7 @@
 				<!-- /ko -->
 				<!-- ko if: unknown == false -->
 				<!-- ko if: $parent.name != "Game Servers" || rel == $root.subSelection() || (rel == 'Login' || (rel != 'Login' && ($root.selected() == 'GMS' || $root.selected() == 'MSEA'))) -->
-				<!-- ko if: name == "Channel 1" || name == "CPQ/DIPQ/EvoLab 1" || name == "Cash Shop 1" || name == "Auction House" || name == "Artemis" || name == "Star Planet 1" || name == "Boss Arena 1" || name == "Merge World" || name == "Cross World" || name == "Monster Life" || name == "Evolution Lab" -->
+				<!-- ko if: name == "Channel 1" || name == "CPQ/DIPQ/EvoLab 1" || name == "Cash Shop" || name == "Cash Shop 1" || name == "Auction House" || name == "Artemis" || name == "Star Planet 1" || name == "Boss Arena 1" || name == "Merge World" || name == "Cross World" || name == "Monster Life" || name == "Evolution Lab" -->
 				<br>
 				<!-- /ko -->
 				<article data-bind="css: { ok: +time() > 0 && +time() < 300, slow: +time() >= 300, timeout: status() == 'timeout' }, attr: { 'data-rel': rel }">
