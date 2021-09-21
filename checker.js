@@ -26,7 +26,7 @@ if (hash.length) {
         case "#KMS":
         case "#CMS":
         case "#MSEA":
-		case "#THMS":
+		case "#TMS":
             selected = hash[0].replace('#', '');
             break;
         default:
@@ -5362,432 +5362,506 @@ var servers = {
             },
         ]
     },
-	THMS: {
+	TMS: {
         Login: [{
             icon: "Mushroom.png",
             name: "Login",
-            address: "175.207.0.34",
+            address: "202.80.104.27",
             port: "8484",
             interval: 5000,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         }],
-        'สคาเนีย': [{
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 1",
-                address: "13.228.80.96",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 2",
-                address: "13.228.80.96",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 3",
-                address: "13.228.76.20",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 4",
-                address: "13.228.76.20",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 5",
-                address: "13.228.42.166",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 6",
-                address: "13.228.42.166",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 7",
-                address: "13.228.52.228",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 8",
-                address: "13.228.52.228",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 9",
-                address: "13.228.80.94",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 10",
-                address: "13.228.80.94",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 11",
-                address: "13.228.80.27",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 12",
-                address: "13.228.80.27",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 13",
-                address: "13.228.45.25",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 14",
-                address: "13.228.45.25",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 15",
-                address: "13.228.80.54",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 16",
-                address: "13.228.80.54",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 17",
-                address: "13.228.45.138",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 18",
-                address: "13.228.45.138",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 19",
-                address: "13.228.58.55",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-			{
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Channel 20",
-                address: "13.228.58.55",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
-            {
-                icon: "Scania.png",
-                english: "Scania",
-                name: "Cash Shop - ปิดใช้งาน",
-                address: "ahri.in.th",
-                port: "8780",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "สคาเนีย"
-            },
+        '艾麗亞': [{
+            icon: "Aria.png",
+            english: "Aria",
+            name: "Channel 1",
+            address: "175.207.0.70",
+            port: "8585",
+            interval: 5000,
+            values: [],
+            isMapleStoryGameServer: true,
+            rel: "艾麗亞"
+        },
+        {
+            icon: "Aria.png",
+            english: "Aria",
+            name: "Ch. 20세이상",
+            address: "175.207.0.70",
+            port: "8586",
+            interval: 5000,
+            values: [],
+            isMapleStoryGameServer: true,
+            rel: "艾麗亞"
+        }
         ],
         // IE fails here, that's why the Korean text is wrapped in quotes.
-        'เบร่า': [{
-                icon: "Bera.png",
-                english: "Bera",
+        '普力特': [{
+                icon: "Freud.png",
+                english: "Freud",
                 name: "Channel 1",
                 address: "175.207.0.70",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "เบร่า"
+                rel: "普力特"
             },
             {
-                icon: "Bera.png",
-                english: "Bera",
+                icon: "Freud.png",
+                english: "Freud",
                 name: "Ch. 20세이상",
                 address: "175.207.0.70",
                 port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "เบร่า"
+                rel: "普力特"
             }
         ],
-        'ลูน่า': [{
-                icon: "Luna.png",
-                english: "Luna",
+        '琉德': [{
+                icon: "Ryude.png",
+                english: "Ryude",
                 name: "Channel 1",
                 address: "175.207.0.80",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "ลูน่า"
+                rel: "琉德"
             },
             {
-                icon: "Luna.png",
-                english: "Luna",
+                icon: "Ryude.png",
+                english: "Ryude",
                 name: "Ch. 20세이상",
                 address: "175.207.0.80",
                 port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "ลูน่า"
+                rel: "琉德"
             }
         ],
-        'เซนิท': [{
-                icon: "Zenith.png",
-                english: "Zenith",
+        '優伊娜': [{
+                icon: "Rhinne.png",
+                english: "Rhinne",
                 name: "Channel 1",
                 address: "175.207.0.85",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "เซนิท"
+                rel: "優伊娜"
             },
             {
-                icon: "Zenith.png",
-                english: "Zenith",
+                icon: "Rhinne.png",
+                english: "Rhinne",
                 name: "Ch. 20세이상",
                 address: "175.207.0.85",
                 port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "เซนิท"
+                rel: "優伊娜"
             }
         ],
-        'โครอา': [{
-                icon: "Croa.png",
-                english: "Croa",
-                name: "Channel 1",
-                address: "175.207.0.90",
+        '愛麗西亞': [
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 1",
+                address: "202.80.104.124",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "โครอา"
+                rel: "愛麗西亞"
             },
             {
-                icon: "Croa.png",
-                english: "Croa",
-                name: "Ch. 20세이상",
-                address: "175.207.0.90",
-                port: "8586",
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 2",
+                address: "202.80.104.124",
+                port: "8686",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "โครอา"
-            }
-        ],
-        'อิลิเซียม': [{
-                icon: "Elysium.png",
-                english: "Elysium",
-                name: "Channel 1",
-                address: "175.207.0.140",
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 3",
+                address: "202.80.104.125",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "อิลิเซียม"
+                rel: "愛麗西亞"
             },
             {
-                icon: "Elysium.png",
-                english: "Elysium",
-                name: "Ch. 20세이상",
-                address: "175.207.0.140",
-                port: "8586",
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 4",
+                address: "202.80.104.125",
+                port: "8686",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "อิลิเซียม"
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 5",
+                address: "202.80.104.126",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 6",
+                address: "202.80.104.126",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 7",
+                address: "202.80.104.127",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 8",
+                address: "202.80.104.127",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 9",
+                address: "202.80.104.128",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 10",
+                address: "202.80.104.128",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 11",
+                address: "202.80.104.129",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 12",
+                address: "202.80.104.129",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 13",
+                address: "202.80.104.130",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 14",
+                address: "202.80.104.130",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 15",
+                address: "202.80.104.131",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 16",
+                address: "202.80.104.131",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 17",
+                address: "202.80.104.132",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 18",
+                address: "202.80.104.132",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 19",
+                address: "202.80.104.133",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 20",
+                address: "202.80.104.133",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 21",
+                address: "202.80.104.134",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 22",
+                address: "202.80.104.134",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 23",
+                address: "202.80.104.135",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 24",
+                address: "202.80.104.135",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 25",
+                address: "202.80.104.136",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 26",
+                address: "202.80.104.136",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 27",
+                address: "202.80.104.137",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 28",
+                address: "202.80.104.137",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 29",
+                address: "202.80.104.138",
+                port: "8585",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "Ch. 30",
+                address: "202.80.104.138",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "購物商城",
+                address: "202.80.104.44",
+                port: "8686",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
+            },
+            {
+                icon: "Alicia.png",
+                english: "Alicia",
+                name: "拍賣所",
+                address: "202.80.104.44",
+                port: "8787",
+                interval: 5000,
+                values: [],
+                isMapleStoryGameServer: true,
+                rel: "愛麗西亞"
             }
         ],
-        'อิโนซิส': [{
-                icon: "Enosis.png",
-                english: "Enosis",
+        '殺人鯨': [{
+            icon: "Orchid_TW.png",
+            english: "Orchid",
+            name: "Channel 1",
+            address: "175.207.0.165",
+            port: "8585",
+            interval: 5000,
+            values: [],
+            isMapleStoryGameServer: true,
+            rel: "殺人鯨"
+        },
+        {
+            icon: "Orchid_TW.png",
+            english: "Orchid",
+            name: "Ch. 20세이상",
+            address: "175.207.0.165",
+            port: "8586",
+            interval: 5000,
+            values: [],
+            isMapleStoryGameServer: true,
+            rel: "殺人鯨"
+        }
+    ],
+        Reboot: [{
+                icon: "Reboot.png",
                 name: "Channel 1",
                 address: "175.207.0.165",
                 port: "8585",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "อิโนซิส"
+                rel: "Reboot"
             },
             {
-                icon: "Enosis.png",
-                english: "Enosis",
+                icon: "Reboot.png",
                 name: "Ch. 20세이상",
                 address: "175.207.0.165",
                 port: "8586",
                 interval: 5000,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "อิโนซิส"
-            }
-        ],
-        'เรด': [{
-                icon: "Red.png",
-                english: "Red",
-                name: "Channel 1",
-                address: "175.207.0.235",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "เรด"
-            },
-            {
-                icon: "Red.png",
-                english: "Red",
-                name: "Ch. 20세이상",
-                address: "175.207.0.235",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "เรด"
-            }
-        ],
-        'ออโรรา': [{
-                icon: "Aurora.png",
-                english: "Aurora",
-                name: "Channel 1",
-                address: "175.207.0.230",
-                port: "8585",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "ออโรรา"
-            },
-            {
-                icon: "Aurora.png",
-                english: "Aurora",
-                name: "Ch. 20세이상",
-                address: "175.207.0.230",
-                port: "8586",
-                interval: 5000,
-                values: [],
-                isMapleStoryGameServer: true,
-                rel: "ออโรรา"
+                rel: "Reboot"
             }
         ]
     },
@@ -6056,8 +6130,8 @@ var checker = {
             abbr: "CMS",
             name: "MapleStory China <small>(中国)</small>",
             available: true,
-            complete: false,
-            icon: "Mushroom.png",
+            complete: true,
+            icon: "Lucid.png",
             short: "中国 | China",
             serverCount: [
                 9
@@ -6219,90 +6293,74 @@ var checker = {
             ]
         },
         {
-            abbr: "THMS",
-            name: "MapleStory Thailand",
+            abbr: "TMS",
+            name: "MapleStory Taiwan <small>台灣</small>",
             available: true,
             complete: false,
-            icon: "Mushroom.png",
-            short: "ไทย | Thailand",
+            icon: "Aria.png",
+            short: "台灣 | Taiwan",
             serverCount: [
                 11
             ],
             applications: [
-                GameServer("Thailand", 7, [{
+                GameServer("Taiwan", 8, [{
                         icon: "Mushroom.png",
                         name: "Login",
                         english: false,
                         sub: ""
                     },
                     {
-                        icon: "Scania.png",
-                        name: "สคาเนีย",
-                        english: "Scania",
+                        icon: "Aria.png",
+                        name: "艾麗亞",
+                        english: "Aria",
                         sub: "World"
                     },
-					/*
-                    {
-                        icon: "Bera.png",
-                        name: "เบร่า",
-                        english: "Bera",
-                        sub: "World"
-                    },
-                    {
-                        icon: "Luna.png",
-                        name: "ลูน่า",
-                        english: "Luna",
+					{
+                        icon: "Freud.png",
+                        name: "普力特",
+                        english: "Freud",
                         sub: "World"
                     },
                     {
-                        icon: "Zenith.png",
-                        name: "เซนิท",
-                        english: "Zenith",
+                        icon: "Ryude.png",
+                        name: "琉德",
+                        english: "Ryude",
                         sub: "World"
                     },
                     {
-                        icon: "Croa.png",
-                        name: "โครอา",
-                        english: "Croa",
+                        icon: "Rhinne.png",
+                        name: "優伊娜",
+                        english: "Rhinne",
                         sub: "World"
                     },
                     {
-                        icon: "Elysium.png",
-                        name: "อิลิเซียม",
-                        english: "Elysium",
+                        icon: "Alicia.png",
+                        name: "愛麗西亞",
+                        english: "Alicia",
                         sub: "World"
                     },
                     {
-                        icon: "Enosis.png",
-                        name: "อิโนซิส",
-                        english: "Enosis",
+                        icon: "Orchid_TW.png",
+                        name: "殺人鯨",
+                        english: "Orchid",
                         sub: "World"
                     },
                     {
-                        icon: "Red.png",
-                        name: "เรด",
-                        english: "Red",
-                        sub: "World"
-                    },
-                    {
-                        icon: "Aurora.png",
-                        name: "ออโรรา",
-                        english: "Aurora",
+                        icon: "Reboot.png",
+                        name: "Reboot",
+                        english: false,
                         sub: "World"
                     }
-					*/
                 ], [
-                    servers.THMS.Login,
+                    servers.TMS.Login,
                     // Not using dot notation because IE sucks.
-                    servers.THMS['สคาเนีย'],
-                    servers.THMS['เบร่า'],
-                    servers.THMS['ลูน่า'],
-                    servers.THMS['เซนิท'],
-                    servers.THMS['โครอา'],
-                    servers.THMS['อิลิเซียม'],
-                    servers.THMS['อิโนซิส'],
-                    servers.THMS['เรด'],
-                    servers.THMS['ออโรรา']
+                    servers.TMS['艾麗亞'],
+                    servers.TMS['普力特'],
+                    servers.TMS['琉德'],
+                    servers.TMS['優伊娜'],
+                    servers.TMS['愛麗西亞'],
+                    servers.TMS['殺人鯨'],
+                    servers.TMS.Reboot
                 ])
             ]
         }
@@ -6356,20 +6414,18 @@ function GetEnglishIconNameForServer(serverName) {
             return "Aurora";
         case "Login":
             return "Mushroom";
-        case "สคาเนีย":
-            return "Scania";
-        case "เบร่า":
-            return "Bera";
-        case "ลูน่า":
-            return "Luna";
-        case "เซนิท":
-            return "Zenith";
-        case "โครอา":
-            return "Croa";
-        case "อิลิเซียม":
-            return "Elysium";
-        case "อิโนซิส":
-            return "Enosis";
+        case "艾麗亞":
+            return "Aria";
+        case "普力特":
+            return "Freud";
+        case "琉德":
+            return "Ryude";
+        case "優伊娜":
+            return "Rhinne";
+        case "愛麗西亞":
+            return "Alicia";
+        case "殺人鯨":
+            return "Orchid_TW";
         case "เรด":
             return "Red";
         case "ออโรรา":
@@ -6453,8 +6509,8 @@ function GetDefaultSubSelectionForVersion(version) {
             return 'Login';
         case 'MSEA':
             return 'Login';
-		case 'THMS':
-		    return 'สคาเนีย';
+		case 'TMS':
+		    return 'Login';
         default:
             return;
     }
