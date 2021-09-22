@@ -1,5 +1,5 @@
 /* Copyright 2015, All Rights Reserved. */
-var checkTimeout = 5000,
+var checkTimeout = 1500,
     checkDelay = 100,
     showIPPort = true,
     showConnection = true,
@@ -170,11 +170,11 @@ var GameServer = function(version, timeOffset, icons, servers) {
 var servers = {
     EMS: {
         Login: [{
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "Login",
             address: "18.196.14.103", // Verified as of 2020-06-10
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
@@ -184,7 +184,7 @@ var servers = {
                 name: "Channel 1",
                 address: "109.234.74.70",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -194,7 +194,7 @@ var servers = {
                 name: "Channel 2",
                 address: "109.234.74.71",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -203,7 +203,7 @@ var servers = {
                 name: "Channel 3",
                 address: "109.234.74.72",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -212,7 +212,7 @@ var servers = {
                 name: "Channel 4",
                 address: "109.234.74.73",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -221,7 +221,7 @@ var servers = {
                 name: "Channel 5",
                 address: "109.234.74.73",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -230,7 +230,7 @@ var servers = {
                 name: "Channel 6",
                 address: "109.234.74.73",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -239,7 +239,7 @@ var servers = {
                 name: "Channel 7",
                 address: "109.234.74.74",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -248,7 +248,7 @@ var servers = {
                 name: "Channel 8",
                 address: "109.234.74.74",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -257,7 +257,7 @@ var servers = {
                 name: "Channel 9",
                 address: "109.234.74.74",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -266,7 +266,7 @@ var servers = {
                 name: "Channel 10",
                 address: "109.234.74.75",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -275,7 +275,7 @@ var servers = {
                 name: "Channel 11",
                 address: "109.234.74.75",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -284,7 +284,7 @@ var servers = {
                 name: "Channel 12",
                 address: "109.234.74.75",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -293,7 +293,7 @@ var servers = {
                 name: "Channel 13",
                 address: "109.234.74.76",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -302,7 +302,7 @@ var servers = {
                 name: "Channel 14",
                 address: "109.234.74.76",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -311,7 +311,7 @@ var servers = {
                 name: "Channel 15",
                 address: "109.234.74.76",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -320,7 +320,7 @@ var servers = {
                 name: "Channel 16",
                 address: "109.234.74.77",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -329,7 +329,7 @@ var servers = {
                 name: "Channel 17",
                 address: "109.234.74.77",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -338,7 +338,7 @@ var servers = {
                 name: "Channel 18",
                 address: "109.234.74.77",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -347,7 +347,7 @@ var servers = {
                 name: "Channel 19",
                 address: "109.234.74.78",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -356,7 +356,7 @@ var servers = {
                 name: "Channel 20",
                 address: "109.234.74.78",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Luna"
@@ -367,7 +367,7 @@ var servers = {
                 name: "Channel 1",
                 address: "8.31.99.161",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -377,7 +377,7 @@ var servers = {
                 name: "Channel 2",
                 address: "8.31.99.135",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -387,7 +387,7 @@ var servers = {
                 name: "Channel 3",
                 address: "8.31.99.237",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -397,7 +397,7 @@ var servers = {
                 name: "Channel 4",
                 address: "8.31.99.136",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -407,7 +407,7 @@ var servers = {
                 name: "Channel 5",
                 address: "8.31.99.162",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -417,7 +417,7 @@ var servers = {
                 name: "Channel 6",
                 address: "8.31.99.137",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -427,7 +427,7 @@ var servers = {
                 name: "Channel 7",
                 address: "8.31.99.195",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -437,7 +437,7 @@ var servers = {
                 name: "Channel 8",
                 address: "8.31.99.138",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -447,7 +447,7 @@ var servers = {
                 name: "Channel 9",
                 address: "8.31.99.163",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -457,7 +457,7 @@ var servers = {
                 name: "Channel 10",
                 address: "8.31.99.144",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -467,7 +467,7 @@ var servers = {
                 name: "Channel 11",
                 address: "8.31.99.196",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -477,7 +477,7 @@ var servers = {
                 name: "Channel 12",
                 address: "8.31.99.145",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -487,7 +487,7 @@ var servers = {
                 name: "Channel 13",
                 address: "8.31.99.157",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -497,7 +497,7 @@ var servers = {
                 name: "Channel 14",
                 address: "8.31.99.146",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -507,7 +507,7 @@ var servers = {
                 name: "Channel 15",
                 address: "8.31.99.197",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -517,7 +517,7 @@ var servers = {
                 name: "Channel 16",
                 address: "8.31.99.158",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -527,7 +527,7 @@ var servers = {
                 name: "Channel 17",
                 address: "8.31.99.147",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -537,7 +537,7 @@ var servers = {
                 name: "Channel 18",
                 address: "8.31.99.148",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -547,7 +547,7 @@ var servers = {
                 name: "Channel 19",
                 address: "8.31.99.150",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -557,7 +557,7 @@ var servers = {
                 name: "Channel 20",
                 address: "8.31.99.149",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -567,14 +567,14 @@ var servers = {
                 name: "Cash Shop",
                 address: "8.31.99.192",
                 port: "8786",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
             }
         ],
         InternalWebsites: [{
-                icon: "Mushroom.png",
+                icon: "Mushroom_16.png",
                 name: "MapleStory",
                 sub: "",
                 address: "maplestory.nexon.net",
@@ -659,31 +659,31 @@ var servers = {
     },
     GMS: {
         Login: [{
-                icon: "Mushroom.png",
+                icon: "Mushroom_16.png",
                 name: "Login 1",
                 address: "34.215.62.60", // Verified as of 
                 port: "8484",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Login"
             },
             {
-                icon: "Mushroom.png",
+                icon: "Mushroom_16.png",
                 name: "Login 2",
                 address: "35.167.153.201", // Verified as of 
                 port: "8484",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Login"
             },
             {
-                icon: "Mushroom.png",
+                icon: "Mushroom_16.png",
                 name: "Login 3",
                 address: "52.37.193.138", // Verified as of 2020-06-10
                 port: "8484",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Login"
@@ -694,7 +694,7 @@ var servers = {
             name: "Cross World",
             address: "54.149.241.32",
             port: "8586",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
@@ -704,7 +704,7 @@ var servers = {
                 name: "Channel 1",
                 address: "35.163.4.248", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -714,7 +714,7 @@ var servers = {
                 name: "Channel 2",
                 address: "54.69.121.239", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -724,7 +724,7 @@ var servers = {
                 name: "Channel 3",
                 address: "52.27.135.94", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -734,7 +734,7 @@ var servers = {
                 name: "Channel 4",
                 address: "34.218.55.122", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -744,7 +744,7 @@ var servers = {
                 name: "Channel 5",
                 address: "54.213.105.170", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -754,7 +754,7 @@ var servers = {
                 name: "Channel 6",
                 address: "52.37.131.173", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -764,7 +764,7 @@ var servers = {
                 name: "Channel 7",
                 address: "52.38.110.221", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -774,7 +774,7 @@ var servers = {
                 name: "Channel 8",
                 address: "50.112.158.189", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -784,7 +784,7 @@ var servers = {
                 name: "Channel 9",
                 address: "34.215.85.101", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -794,7 +794,7 @@ var servers = {
                 name: "Channel 10",
                 address: "54.191.76.216", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -804,7 +804,7 @@ var servers = {
                 name: "Channel 11",
                 address: "54.191.254.95", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -814,7 +814,7 @@ var servers = {
                 name: "Channel 12",
                 address: "50.112.211.236", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -824,7 +824,7 @@ var servers = {
                 name: "Channel 13",
                 address: "35.165.21.160", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -834,7 +834,7 @@ var servers = {
                 name: "Channel 14",
                 address: "34.211.249.74", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -844,7 +844,7 @@ var servers = {
                 name: "Channel 15",
                 address: "52.43.74.100", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -854,7 +854,7 @@ var servers = {
                 name: "Channel 16",
                 address: "34.209.206.177", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -864,7 +864,7 @@ var servers = {
                 name: "Channel 17",
                 address: "34.214.52.19", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -874,7 +874,7 @@ var servers = {
                 name: "Channel 18",
                 address: "54.189.248.141", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -884,7 +884,7 @@ var servers = {
                 name: "Channel 19",
                 address: "34.208.240.38", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -894,7 +894,7 @@ var servers = {
                 name: "Channel 20",
                 address: "54.245.14.209", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -904,7 +904,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "52.32.42.163", // Verified as of 
                 port: "8785",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -914,7 +914,7 @@ var servers = {
                 name: "Monster Life",
                 address: "34.217.198.173", // verified as of
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -924,7 +924,7 @@ var servers = {
                 name: "Auction House",
                 address: "34.209.161.140", // Verified as of 
                 port: "8785",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Scania"
@@ -935,7 +935,7 @@ var servers = {
                 name: "Channel 1",
                 address: "54.186.151.49", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -945,7 +945,7 @@ var servers = {
                 name: "Channel 2",
                 address: "54.214.207.253", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -955,7 +955,7 @@ var servers = {
                 name: "Channel 3",
                 address: "34.214.214.251", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -965,7 +965,7 @@ var servers = {
                 name: "Channel 4",
                 address: "35.165.105.161", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -975,7 +975,7 @@ var servers = {
                 name: "Channel 5",
                 address: "35.167.16.143", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -985,7 +985,7 @@ var servers = {
                 name: "Channel 6",
                 address: "52.40.39.138", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -995,7 +995,7 @@ var servers = {
                 name: "Channel 7",
                 address: "54.68.47.217", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1005,7 +1005,7 @@ var servers = {
                 name: "Channel 8",
                 address: "52.35.241.179", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1015,7 +1015,7 @@ var servers = {
                 name: "Channel 9",
                 address: "34.218.68.31", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1025,7 +1025,7 @@ var servers = {
                 name: "Channel 10",
                 address: "52.43.9.29", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1035,7 +1035,7 @@ var servers = {
                 name: "Channel 11",
                 address: "54.213.64.154", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1045,7 +1045,7 @@ var servers = {
                 name: "Channel 12",
                 address: "52.25.121.0", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1055,7 +1055,7 @@ var servers = {
                 name: "Channel 13",
                 address: "54.148.5.57", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1065,7 +1065,7 @@ var servers = {
                 name: "Channel 14",
                 address: "35.161.154.148", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1075,7 +1075,7 @@ var servers = {
                 name: "Channel 15",
                 address: "54.203.140.45", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1085,7 +1085,7 @@ var servers = {
                 name: "Channel 16",
                 address: "35.163.184.1", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1095,7 +1095,7 @@ var servers = {
                 name: "Channel 17",
                 address: "34.218.100.191", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1105,7 +1105,7 @@ var servers = {
                 name: "Channel 18",
                 address: "52.38.89.169", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1115,7 +1115,7 @@ var servers = {
                 name: "Channel 19",
                 address: "52.88.17.178", // Verified as of 2020-06-10
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1125,7 +1125,7 @@ var servers = {
                 name: "Channel 20", // Verified as of 2020-06-10
                 address: "52.27.189.124",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1135,7 +1135,7 @@ var servers = {
                 name: "Channel 21", // Verified as of 2020-06-10
                 address: "54.185.114.1",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1145,7 +1145,7 @@ var servers = {
                 name: "Channel 22", // Verified as of 2020-06-10
                 address: "52.35.244.164",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1155,7 +1155,7 @@ var servers = {
                 name: "Channel 23", // Verified as of 2020-06-10
                 address: "54.188.77.194",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1165,7 +1165,7 @@ var servers = {
                 name: "Channel 24", // Verified as of 2020-06-10
                 address: "54.188.54.110",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1175,7 +1175,7 @@ var servers = {
                 name: "Channel 25", // Verified as of 2020-06-10
                 address: "54.69.112.20",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1185,7 +1185,7 @@ var servers = {
                 name: "Channel 26", // Verified as of 2020-06-10
                 address: "54.185.17.226",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1195,7 +1195,7 @@ var servers = {
                 name: "Channel 27", // Verified as of 2020-06-10
                 address: "54.188.58.179",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1205,7 +1205,7 @@ var servers = {
                 name: "Channel 28", // Verified as of 2020-06-10
                 address: "44.229.126.218",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1215,7 +1215,7 @@ var servers = {
                 name: "Channel 29", // Verified as of 2020-06-10
                 address: "52.39.65.13",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1225,7 +1225,7 @@ var servers = {
                 name: "Channel 30", // Verified as of 2020-06-10
                 address: "54.190.177.113",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1235,7 +1235,7 @@ var servers = {
                 name: "CPQ/DIPQ/EvoLab 1", // Verified as of 2020-06-10
                 address: "54.70.148.148",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1245,7 +1245,7 @@ var servers = {
                 name: "CPQ/DIPQ/EvoLab 2",
                 address: "54.70.148.148", // 50.112.51.145 previously, verified as of 2020-06-10
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1255,7 +1255,7 @@ var servers = {
                 name: "CPQ/DIPQ/EvoLab 3",
                 address: "54.70.148.148", // 35.164.186.245 previously, verified as of 2020-06-10
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1265,7 +1265,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "54.203.24.179", // Verified as of 2020-06-10
                 port: "8786",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1275,7 +1275,7 @@ var servers = {
                 name: "Monster Life", // Verified as of 2020-06-10
                 address: "34.217.198.173",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1285,7 +1285,7 @@ var servers = {
                 name: "Auction House", // Verified as of 2020-06-10
                 address: "34.209.161.140",
                 port: "8786",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bera"
@@ -1296,7 +1296,7 @@ var servers = {
                 name: "Channel 1",
                 address: "54.214.132.190", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1306,7 +1306,7 @@ var servers = {
                 name: "Channel 2",
                 address: "54.245.208.58", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1316,7 +1316,7 @@ var servers = {
                 name: "Channel 3",
                 address: "35.165.10.219", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1326,7 +1326,7 @@ var servers = {
                 name: "Channel 4",
                 address: "54.214.75.83", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1336,7 +1336,7 @@ var servers = {
                 name: "Channel 5",
                 address: "35.163.91.77", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1346,7 +1346,7 @@ var servers = {
                 name: "Channel 6",
                 address: "35.166.234.61", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1356,7 +1356,7 @@ var servers = {
                 name: "Channel 7",
                 address: "52.43.231.158", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1366,7 +1366,7 @@ var servers = {
                 name: "Channel 8",
                 address: "52.35.100.28", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1376,7 +1376,7 @@ var servers = {
                 name: "Channel 9",
                 address: "54.70.100.207", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1386,7 +1386,7 @@ var servers = {
                 name: "Channel 10",
                 address: "35.163.79.48", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1396,7 +1396,7 @@ var servers = {
                 name: "Channel 11",
                 address: "52.32.142.22", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1406,7 +1406,7 @@ var servers = {
                 name: "Channel 12",
                 address: "54.186.3.5", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1416,7 +1416,7 @@ var servers = {
                 name: "Channel 13",
                 address: "34.211.210.222", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1426,7 +1426,7 @@ var servers = {
                 name: "Channel 14",
                 address: "35.166.32.116", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1436,7 +1436,7 @@ var servers = {
                 name: "Channel 15",
                 address: "54.186.75.108", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1446,7 +1446,7 @@ var servers = {
                 name: "Channel 16",
                 address: "52.37.9.209", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1456,7 +1456,7 @@ var servers = {
                 name: "Channel 17",
                 address: "52.37.174.51", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1466,7 +1466,7 @@ var servers = {
                 name: "Channel 18",
                 address: "52.32.10.100", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1476,7 +1476,7 @@ var servers = {
                 name: "Channel 19",
                 address: "54.203.45.149", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1486,7 +1486,7 @@ var servers = {
                 name: "Channel 20",
                 address: "52.41.244.230", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1496,7 +1496,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "52.10.224.51", // Verified as of 
                 port: "8787",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1506,7 +1506,7 @@ var servers = {
                 name: "Monster Life",
                 address: "52.42.29.253", // Verified as of
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1516,7 +1516,7 @@ var servers = {
                 name: "Auction House",
                 address: "34.209.161.140",
                 port: "8790",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Elysium"
@@ -1527,7 +1527,7 @@ var servers = {
                 name: "Channel 1",
                 address: "52.26.44.15", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1537,7 +1537,7 @@ var servers = {
                 name: "Channel 2",
                 address: "52.88.199.249", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1547,7 +1547,7 @@ var servers = {
                 name: "Channel 3",
                 address: "54.71.159.23", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1557,7 +1557,7 @@ var servers = {
                 name: "Channel 4",
                 address: "54.200.197.85", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1567,7 +1567,7 @@ var servers = {
                 name: "Channel 5",
                 address: "52.24.108.169", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1577,7 +1577,7 @@ var servers = {
                 name: "Channel 6",
                 address: "52.32.48.160", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1587,7 +1587,7 @@ var servers = {
                 name: "Channel 7",
                 address: "52.27.243.250", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1597,7 +1597,7 @@ var servers = {
                 name: "Channel 8",
                 address: "54.203.90.46", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1607,7 +1607,7 @@ var servers = {
                 name: "Channel 9",
                 address: "54.148.240.123", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1617,7 +1617,7 @@ var servers = {
                 name: "Channel 10",
                 address: "35.164.217.126", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1627,7 +1627,7 @@ var servers = {
                 name: "Channel 11",
                 address: "52.36.214.18", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1637,7 +1637,7 @@ var servers = {
                 name: "Channel 12",
                 address: "35.162.50.9", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1647,7 +1647,7 @@ var servers = {
                 name: "Channel 13",
                 address: "52.40.100.64", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1657,7 +1657,7 @@ var servers = {
                 name: "Channel 14",
                 address: "52.39.159.3", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1667,7 +1667,7 @@ var servers = {
                 name: "Channel 15",
                 address: "34.216.36.199", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1677,7 +1677,7 @@ var servers = {
                 name: "Channel 16",
                 address: "34.213.140.179", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1687,7 +1687,7 @@ var servers = {
                 name: "Channel 17",
                 address: "54.203.178.92", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1697,7 +1697,7 @@ var servers = {
                 name: "Channel 18",
                 address: "54.214.75.143", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1707,7 +1707,7 @@ var servers = {
                 name: "Channel 19",
                 address: "52.24.61.30", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1717,7 +1717,7 @@ var servers = {
                 name: "Channel 20",
                 address: "34.208.168.106", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1727,7 +1727,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "52.10.224.51", // Verified as of 
                 port: "8786",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1737,7 +1737,7 @@ var servers = {
                 name: "Monster Life",
                 address: "52.42.29.253", // Verified as of
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1747,7 +1747,7 @@ var servers = {
                 name: "Auction House",
                 address: "34.209.161.140",
                 port: "8789",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aurora"
@@ -1758,7 +1758,7 @@ var servers = {
 				name: "Channel 1",
 				address: "35.155.204.207",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1768,7 +1768,7 @@ var servers = {
 				name: "Channel 2",
 				address: "52.26.82.74",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1778,7 +1778,7 @@ var servers = {
 				name: "Channel 3",
 				address: "34.217.205.66",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1788,7 +1788,7 @@ var servers = {
 				name: "Channel 4",
 				address: "54.148.188.235",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1798,7 +1798,7 @@ var servers = {
 				name: "Channel 5",
 				address: "54.218.157.183",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1808,7 +1808,7 @@ var servers = {
 				name: "Channel 6",
 				address: "54.68.160.34",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1818,7 +1818,7 @@ var servers = {
 				name: "Channel 7",
 				address: "52.25.78.39",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1828,7 +1828,7 @@ var servers = {
 				name: "Channel 8",
 				address: "52.33.249.126",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1838,7 +1838,7 @@ var servers = {
 				name: "Channel 9",
 				address: "34.218.141.142",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1848,7 +1848,7 @@ var servers = {
 				name: "Channel 10",
 				address: "54.148.170.23",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1858,7 +1858,7 @@ var servers = {
 				name: "Channel 11",
 				address: "54.191.142.56",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1868,7 +1868,7 @@ var servers = {
 				name: "Channel 12",
 				address: "54.201.184.26",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1878,7 +1878,7 @@ var servers = {
 				name: "Channel 13",
 				address: "52.13.185.207",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1888,7 +1888,7 @@ var servers = {
 				name: "Channel 14",
 				address: "34.215.228.37",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1898,7 +1898,7 @@ var servers = {
 				name: "Channel 15",
 				address: "54.187.177.143",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1908,7 +1908,7 @@ var servers = {
 				name: "Channel 16",
 				address: "54.203.83.148",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1918,7 +1918,7 @@ var servers = {
 				name: "Channel 17",
 				address: "35.161.183.101",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1928,7 +1928,7 @@ var servers = {
 				name: "Channel 18",
 				address: "52.43.83.76",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1938,7 +1938,7 @@ var servers = {
 				name: "Channel 19",
 				address: "54.69.114.137",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1948,7 +1948,7 @@ var servers = {
 				name: "Channel 20",
 				address: "54.148.137.49",
 				port: 8585,
-				interval: 5000,
+				interval: 1500,
 				values: [],
 				isMapleStoryGameServer: true,
 				rel: "Reboot"
@@ -1958,7 +1958,7 @@ var servers = {
                 name: "Channel 21", // Verified as of 
                 address: "54.212.109.33",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -1968,7 +1968,7 @@ var servers = {
                 name: "Channel 22", // Verified as of 
                 address: "44.230.255.51",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -1978,7 +1978,7 @@ var servers = {
                 name: "Channel 23", // Verified as of 
                 address: "100.20.116.83",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -1988,7 +1988,7 @@ var servers = {
                 name: "Channel 24", // Verified as of 
                 address: "54.188.84.22",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -1998,7 +1998,7 @@ var servers = {
                 name: "Channel 25", // Verified as of 
                 address: "34.215.170.50",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -2008,7 +2008,7 @@ var servers = {
                 name: "Channel 26", // Verified as of 
                 address: "54.184.162.28",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -2018,7 +2018,7 @@ var servers = {
                 name: "Channel 27", // Verified as of 
                 address: "54.185.209.29",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -2028,7 +2028,7 @@ var servers = {
                 name: "Channel 28", // Verified as of 
                 address: "52.12.53.225",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -2038,7 +2038,7 @@ var servers = {
                 name: "Channel 29", // Verified as of 
                 address: "54.189.33.238",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -2048,7 +2048,7 @@ var servers = {
                 name: "Channel 30", // Verified as of 
                 address: "54.188.84.238",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -2058,7 +2058,7 @@ var servers = {
 		        name: "CPQ/DIPQ/EvoLab 1",
 				address: "52.10.175.83",
 		        port: "8585",
-		        interval: 5000,
+		        interval: 1500,
 		        values: [],
 			    isMapleStoryGameServer: true,
 			    rel: "Reboot"
@@ -2068,7 +2068,7 @@ var servers = {
 		        name: "CPQ/DIPQ/EvoLab 2",
 				address: "52.10.175.83",
 		        port: "8586",
-		        interval: 5000,
+		        interval: 1500,
 		        values: [],
 			    isMapleStoryGameServer: true,
 			    rel: "Reboot"
@@ -2078,7 +2078,7 @@ var servers = {
 		        name: "CPQ/DIPQ/EvoLab 3",
 				address: "52.10.175.83",
 		        port: "8587",
-		        interval: 5000,
+		        interval: 1500,
 		        values: [],
 			    isMapleStoryGameServer: true,
 			    rel: "Reboot"
@@ -2088,7 +2088,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "52.32.42.163",
                 port: "8788",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -2099,7 +2099,7 @@ var servers = {
                 name: "Channel 1",
                 address: "52.26.44.15", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2109,7 +2109,7 @@ var servers = {
                 name: "Channel 2",
                 address: "52.88.199.249", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2119,7 +2119,7 @@ var servers = {
                 name: "Channel 3",
                 address: "54.71.159.23", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2129,7 +2129,7 @@ var servers = {
                 name: "Channel 4",
                 address: "54.200.197.85", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2139,7 +2139,7 @@ var servers = {
                 name: "Channel 5",
                 address: "52.24.108.169", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2149,7 +2149,7 @@ var servers = {
                 name: "Channel 6",
                 address: "52.32.48.160", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2159,7 +2159,7 @@ var servers = {
                 name: "Channel 7",
                 address: "52.27.243.250", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2169,7 +2169,7 @@ var servers = {
                 name: "Channel 8",
                 address: "54.203.90.46", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2179,7 +2179,7 @@ var servers = {
                 name: "Channel 9",
                 address: "54.148.240.123", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2189,7 +2189,7 @@ var servers = {
                 name: "Channel 10",
                 address: "35.164.217.126", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2199,7 +2199,7 @@ var servers = {
                 name: "Channel 11",
                 address: "52.36.214.18", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2209,7 +2209,7 @@ var servers = {
                 name: "Channel 12",
                 address: "35.162.50.9", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2219,7 +2219,7 @@ var servers = {
                 name: "Channel 13",
                 address: "52.40.100.64", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2229,7 +2229,7 @@ var servers = {
                 name: "Channel 14",
                 address: "52.39.159.3", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2239,7 +2239,7 @@ var servers = {
                 name: "Channel 15",
                 address: "34.216.36.199", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2249,7 +2249,7 @@ var servers = {
                 name: "Channel 16",
                 address: "34.213.140.179", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2259,7 +2259,7 @@ var servers = {
                 name: "Channel 17",
                 address: "54.203.178.92", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2269,7 +2269,7 @@ var servers = {
                 name: "Channel 18",
                 address: "54.214.75.143", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2279,7 +2279,7 @@ var servers = {
                 name: "Channel 19",
                 address: "52.24.61.30", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2289,7 +2289,7 @@ var servers = {
                 name: "Channel 20",
                 address: "34.208.168.106", // Verified as of 
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2299,7 +2299,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "52.10.224.51", // Verified as of 
                 port: "8786",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2309,7 +2309,7 @@ var servers = {
                 name: "Monster Life",
                 address: "52.42.29.253", // Verified as of
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
@@ -2319,14 +2319,14 @@ var servers = {
                 name: "Auction House",
                 address: "34.209.161.140",
                 port: "8789",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Burning"
             }
         ],
         Websites: [{
-                icon: "Mushroom.png",
+                icon: "Mushroom_16.png",
                 name: "MapleStory",
                 sub: "",
                 address: "maplestory.nexon.net",
@@ -2385,11 +2385,11 @@ var servers = {
     },
     JMS: {
         Login: [{
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "Login",
             address: "202.80.104.27",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
@@ -2400,7 +2400,7 @@ var servers = {
             name: "Channel 1",
             address: "175.207.0.70",
             port: "8585",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "かえで"
@@ -2411,7 +2411,7 @@ var servers = {
             name: "Ch. 20세이상",
             address: "175.207.0.70",
             port: "8586",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "かえで"
@@ -2424,7 +2424,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.70",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "くるみ"
@@ -2435,7 +2435,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.70",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "くるみ"
@@ -2447,7 +2447,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.80",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "ゆかり"
@@ -2458,7 +2458,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.80",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "ゆかり"
@@ -2470,7 +2470,7 @@ var servers = {
             name: "Channel 1",
             address: "175.207.0.80",
             port: "8585",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "リブート"
@@ -2481,7 +2481,7 @@ var servers = {
             name: "Ch. 20세이상",
             address: "175.207.0.80",
             port: "8586",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "リブート"
@@ -2490,11 +2490,11 @@ var servers = {
     },
     KMS: {
         Login: [{
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "Login",
             address: "175.207.0.34",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
@@ -2505,7 +2505,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.65",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2516,7 +2516,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.65",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2527,7 +2527,7 @@ var servers = {
                 name: "Channel 2",
                 address: "175.207.0.240",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2538,7 +2538,7 @@ var servers = {
                 name: "Channel 3",
                 address: "175.207.0.240",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2549,7 +2549,7 @@ var servers = {
                 name: "Channel 4",
                 address: "175.207.0.241",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2560,7 +2560,7 @@ var servers = {
                 name: "Channel 5",
                 address: "175.207.0.66",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2571,7 +2571,7 @@ var servers = {
                 name: "Channel 6",
                 address: "175.207.0.66",
                 port: "8588",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2582,7 +2582,7 @@ var servers = {
                 name: "Channel 7",
                 address: "175.207.0.243",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2593,7 +2593,7 @@ var servers = {
                 name: "Channel 8",
                 address: "175.207.0.67",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2604,7 +2604,7 @@ var servers = {
                 name: "Channel 9",
                 address: "175.207.0.67",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2615,7 +2615,7 @@ var servers = {
                 name: "Channel 10",
                 address: "175.207.0.67",
                 port: "8588",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2626,7 +2626,7 @@ var servers = {
                 name: "Channel 11",
                 address: "175.207.0.68",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2637,7 +2637,7 @@ var servers = {
                 name: "Channel 12",
                 address: "175.207.0.68",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2648,7 +2648,7 @@ var servers = {
                 name: "Channel 13",
                 address: "175.207.0.68",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2659,7 +2659,7 @@ var servers = {
                 name: "Channel 14",
                 address: "175.207.0.243",
                 port: "8588",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2670,7 +2670,7 @@ var servers = {
                 name: "Channel 15",
                 address: "175.207.0.241",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2681,7 +2681,7 @@ var servers = {
                 name: "Channel 16",
                 address: "175.207.0.250",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2692,7 +2692,7 @@ var servers = {
                 name: "Channel 17",
                 address: "175.207.0.242",
                 port: "8587",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2703,7 +2703,7 @@ var servers = {
                 name: "Channel 18",
                 address: "175.207.0.242",
                 port: "8588",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2714,7 +2714,7 @@ var servers = {
                 name: "Channel 19",
                 address: "175.207.0.69",
                 port: "8589",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2725,7 +2725,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "175.207.0.10",
                 port: "8780",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "스카니아"
@@ -2738,7 +2738,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.70",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "베라"
@@ -2749,7 +2749,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.70",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "베라"
@@ -2761,7 +2761,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.80",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "루나"
@@ -2772,7 +2772,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.80",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "루나"
@@ -2784,7 +2784,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.85",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "제니스"
@@ -2795,7 +2795,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.85",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "제니스"
@@ -2807,7 +2807,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.90",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "크로아"
@@ -2818,7 +2818,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.90",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "크로아"
@@ -2830,7 +2830,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.246",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "유니온"
@@ -2841,7 +2841,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.115",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "유니온"
@@ -2853,7 +2853,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.140",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "엘리시움"
@@ -2864,7 +2864,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.140",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "엘리시움"
@@ -2876,7 +2876,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.165",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "이노시스"
@@ -2887,7 +2887,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.165",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "이노시스"
@@ -2899,7 +2899,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.235",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "레드"
@@ -2910,7 +2910,7 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.235",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "레드"
@@ -2922,7 +2922,7 @@ var servers = {
                 name: "Channel 1",
                 address: "175.207.0.230",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "오로라"
@@ -2933,76 +2933,260 @@ var servers = {
                 name: "Ch. 20세이상",
                 address: "175.207.0.230",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "오로라"
             }
-        ]
+        ],
+        '아케인': [{
+            icon: "Arcane.png",
+            english: "Arcane",
+            name: "Channel 1",
+            address: "175.207.0.230",
+            port: "8585",
+            interval: 1500,
+            values: [],
+            isMapleStoryGameServer: true,
+            rel: "아케인"
+        },
+        {
+            icon: "Arcane.png",
+            english: "Arcane",
+            name: "Ch. 20세이상",
+            address: "175.207.0.230",
+            port: "8586",
+            interval: 1500,
+            values: [],
+            isMapleStoryGameServer: true,
+            rel: "아케인"
+        }
+    ],
+    '노바': [{
+        icon: "Nova.png",
+        english: "Nova",
+        name: "Channel 1",
+        address: "175.207.0.230",
+        port: "8585",
+        interval: 1500,
+        values: [],
+        isMapleStoryGameServer: true,
+        rel: "노바"
+    },
+    {
+        icon: "Nova.png",
+        english: "Nova",
+        name: "Ch. 20세이상",
+        address: "175.207.0.230",
+        port: "8586",
+        interval: 1500,
+        values: [],
+        isMapleStoryGameServer: true,
+        rel: "노바"
+    }
+],
+'리부트': [{
+    icon: "Reboot.png",
+    english: "Reboot",
+    name: "Channel 1",
+    address: "175.207.0.230",
+    port: "8585",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "리부트"
+},
+{
+    icon: "Reboot.png",
+    english: "Reboot",
+    name: "Ch. 20세이상",
+    address: "175.207.0.230",
+    port: "8586",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "리부트"
+}
+],
+'리부트2': [{
+    icon: "Reboot.png",
+    english: "Reboot2",
+    name: "Channel 1",
+    address: "175.207.0.230",
+    port: "8585",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "리부트2"
+},
+{
+    icon: "Reboot.png",
+    english: "Reboot2",
+    name: "Ch. 20세이상",
+    address: "175.207.0.230",
+    port: "8586",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "리부트2"
+}
+],
+'테스트월드1': [{
+    icon: "TestWorld.png",
+    english: "TestWorld1",
+    name: "Channel 1",
+    address: "175.207.0.230",
+    port: "8585",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "테스트월드1"
+},
+{
+    icon: "TestWorld.png",
+    english: "TestWorld1",
+    name: "Ch. 20세이상",
+    address: "175.207.0.230",
+    port: "8586",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "테스트월드1"
+}
+],
+'테스트월드2': [{
+    icon: "TestWorld.png",
+    english: "TestWorld2",
+    name: "Channel 1",
+    address: "175.207.0.230",
+    port: "8585",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "테스트월드2"
+},
+{
+    icon: "TestWorld.png",
+    english: "TestWorld2",
+    name: "Ch. 20세이상",
+    address: "175.207.0.230",
+    port: "8586",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "테스트월드2"
+}
+],
+'리부트T': [{
+    icon: "Reboot.png",
+    english: "RebootT",
+    name: "Channel 1",
+    address: "175.207.0.230",
+    port: "8585",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "리부트T"
+},
+{
+    icon: "Reboot.png",
+    english: "RebootT",
+    name: "Ch. 20세이상",
+    address: "175.207.0.230",
+    port: "8586",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "리부트T"
+}
+],
+'리부트T2': [{
+    icon: "Reboot.png",
+    english: "RebootT2",
+    name: "Channel 1",
+    address: "175.207.0.230",
+    port: "8585",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "리부트T2"
+},
+{
+    icon: "Reboot.png",
+    english: "RebootT2",
+    name: "Ch. 20세이상",
+    address: "175.207.0.230",
+    port: "8586",
+    interval: 1500,
+    values: [],
+    isMapleStoryGameServer: true,
+    rel: "리부트T2"
+}
+]
     },
     CMS: {
         Login: [{
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             english: "Gateway of Wind",
             name: "风之大陆",
             address: "159.75.223.31",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             english: "Gateway of Light",
             name: "光之大陆",
             address: "109.244.2.229",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             english: "Gateway of Clouds",
             name: "云之大陆",
             address: "109.244.2.214",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             english: "Gateway of Darkness",
             name: "暗之大陆",
             address: "109.244.2.219",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             english: "Gateway of Water",
             name: "水之大陆",
             address: "159.75.223.108",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             english: "Tespia",
             name: "测试区",
             address: "116.211.24.140",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
@@ -3014,7 +3198,7 @@ var servers = {
                     name: "频道 1",
                     address: "159.75.223.83",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3025,7 +3209,7 @@ var servers = {
                     name: "频道 2",
                     address: "159.75.223.84",
                     port: "8586",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3036,7 +3220,7 @@ var servers = {
                     name: "频道 3 贵宾",
                     address: "159.75.223.85",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3047,7 +3231,7 @@ var servers = {
                     name: "频道 4 贵宾",
                     address: "159.75.223.86",
                     port: "8586",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3058,7 +3242,7 @@ var servers = {
                     name: "频道 5",
                     address: "159.75.223.87",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3069,7 +3253,7 @@ var servers = {
                     name: "频道 6",
                     address: "159.75.223.88",
                     port: "8586",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3080,7 +3264,7 @@ var servers = {
                     name: "频道 7",
                     address: "159.75.223.89",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3091,7 +3275,7 @@ var servers = {
                     name: "频道 8",
                     address: "159.75.223.90",
                     port: "8586",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3102,7 +3286,7 @@ var servers = {
                     name: "频道 9",
                     address: "159.75.223.91",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3113,7 +3297,7 @@ var servers = {
                     name: "频道 10",
                     address: "159.75.223.92",
                     port: "8586",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3124,7 +3308,7 @@ var servers = {
                     name: "频道 11",
                     address: "159.75.223.93",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3135,7 +3319,7 @@ var servers = {
                     name: "频道 12",
                     address: "159.75.223.94",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3146,7 +3330,7 @@ var servers = {
                     name: "频道 13",
                     address: "159.75.223.95",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3157,7 +3341,7 @@ var servers = {
                     name: "频道 14",
                     address: "159.75.223.96",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3168,7 +3352,7 @@ var servers = {
                     name: "频道 15",
                     address: "159.75.223.97",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3179,7 +3363,7 @@ var servers = {
                     name: "频道 16",
                     address: "159.75.223.98",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3190,7 +3374,7 @@ var servers = {
                     name: "频道 17",
                     address: "159.75.223.99",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3201,7 +3385,7 @@ var servers = {
                     name: "频道 18",
                     address: "159.75.223.100",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3212,7 +3396,7 @@ var servers = {
                     name: "频道 19",
                     address: "159.75.223.101",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3223,7 +3407,7 @@ var servers = {
                     name: "频道 20",
                     address: "159.75.223.102",
                     port: "8585",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3234,7 +3418,7 @@ var servers = {
                     name: "商城",
                     address: "159.75.223.37",
                     port: "8700",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3245,7 +3429,7 @@ var servers = {
                     name: "拍卖场",
                     address: "159.75.223.23",
                     port: "8795",
-                    interval: 5000,
+                    interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
                     rel:  "路西德"
@@ -3258,7 +3442,7 @@ var servers = {
                         name: "频道 1",
                         address: "159.75.223.62",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3269,7 +3453,7 @@ var servers = {
                         name: "频道 2",
                         address: "159.75.223.63",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3280,7 +3464,7 @@ var servers = {
                         name: "频道 3 贵宾",
                         address: "159.75.223.64",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3291,7 +3475,7 @@ var servers = {
                         name: "频道 4 贵宾",
                         address: "159.75.223.65",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3302,7 +3486,7 @@ var servers = {
                         name: "频道 5",
                         address: "159.75.223.66",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3313,7 +3497,7 @@ var servers = {
                         name: "频道 6",
                         address: "159.75.223.67",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3324,7 +3508,7 @@ var servers = {
                         name: "频道 7",
                         address: "159.75.223.68",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3335,7 +3519,7 @@ var servers = {
                         name: "频道 8",
                         address: "159.75.223.69",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3346,7 +3530,7 @@ var servers = {
                         name: "频道 9",
                         address: "159.75.223.70",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3357,7 +3541,7 @@ var servers = {
                         name: "频道 10",
                         address: "159.75.223.71",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3368,7 +3552,7 @@ var servers = {
                         name: "频道 11",
                         address: "159.75.223.72",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3379,7 +3563,7 @@ var servers = {
                         name: "频道 12",
                         address: "159.75.223.73",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3390,7 +3574,7 @@ var servers = {
                         name: "频道 13",
                         address: "159.75.223.74",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3401,7 +3585,7 @@ var servers = {
                         name: "频道 14",
                         address: "159.75.223.75",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3412,7 +3596,7 @@ var servers = {
                         name: "频道 15",
                         address: "159.75.223.76",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3423,7 +3607,7 @@ var servers = {
                         name: "频道 16",
                         address: "159.75.223.77",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3434,7 +3618,7 @@ var servers = {
                         name: "频道 17",
                         address: "159.75.223.78",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3445,7 +3629,7 @@ var servers = {
                         name: "频道 18",
                         address: "159.75.223.79",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3456,7 +3640,7 @@ var servers = {
                         name: "频道 19",
                         address: "159.75.223.80",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3467,7 +3651,7 @@ var servers = {
                         name: "频道 20",
                         address: "159.75.223.81",
                         port: "8585",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3478,7 +3662,7 @@ var servers = {
                         name: "商城",
                         address: "159.75.223.38",
                         port: "8701",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3489,7 +3673,7 @@ var servers = {
                         name: "拍卖场",
                         address: "159.75.223.23",
                         port: "8796",
-                        interval: 5000,
+                        interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
                         rel: "威尔"
@@ -3502,7 +3686,7 @@ var servers = {
                             name: "频道 1",
                             address: "159.75.223.41",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3513,7 +3697,7 @@ var servers = {
                             name: "频道 2",
                             address: "159.75.223.42",
                             port: "8586",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3524,7 +3708,7 @@ var servers = {
                             name: "频道 3 贵宾",
                             address: "159.75.223.43",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3535,7 +3719,7 @@ var servers = {
                             name: "频道 4 贵宾",
                             address: "159.75.223.44",
                             port: "8586",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3546,7 +3730,7 @@ var servers = {
                             name: "频道 5",
                             address: "159.75.223.45",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3557,7 +3741,7 @@ var servers = {
                             name: "频道 6",
                             address: "159.75.223.46",
                             port: "8586",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3568,7 +3752,7 @@ var servers = {
                             name: "频道 7",
                             address: "159.75.223.47",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3579,7 +3763,7 @@ var servers = {
                             name: "频道 8",
                             address: "159.75.223.48",
                             port: "8586",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3590,7 +3774,7 @@ var servers = {
                             name: "频道 9",
                             address: "159.75.223.49",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3601,7 +3785,7 @@ var servers = {
                             name: "频道 10",
                             address: "159.75.223.50",
                             port: "8586",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3612,7 +3796,7 @@ var servers = {
                             name: "频道 11",
                             address: "159.75.223.51",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3623,7 +3807,7 @@ var servers = {
                             name: "频道 12",
                             address: "159.75.223.52",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3634,7 +3818,7 @@ var servers = {
                             name: "频道 13",
                             address: "159.75.223.53",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3645,7 +3829,7 @@ var servers = {
                             name: "频道 14",
                             address: "159.75.223.54",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3656,7 +3840,7 @@ var servers = {
                             name: "频道 15",
                             address: "159.75.223.55",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3667,7 +3851,7 @@ var servers = {
                             name: "频道 16",
                             address: "159.75.223.56",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3678,7 +3862,7 @@ var servers = {
                             name: "频道 17",
                             address: "159.75.223.57",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3689,7 +3873,7 @@ var servers = {
                             name: "频道 18",
                             address: "159.75.223.58",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3700,7 +3884,7 @@ var servers = {
                             name: "频道 19",
                             address: "159.75.223.59",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3711,7 +3895,7 @@ var servers = {
                             name: "频道 20",
                             address: "159.75.223.60",
                             port: "8585",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3722,7 +3906,7 @@ var servers = {
                             name: "商城",
                             address: "159.75.223.39",
                             port: "8702",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3733,7 +3917,7 @@ var servers = {
                             name: "拍卖场",
                             address: "159.75.223.23",
                             port: "8797",
-                            interval: 5000,
+                            interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
                             rel: "奥尔卡"
@@ -3746,7 +3930,7 @@ var servers = {
                                 name: "频道 1",
                                 address: "109.244.2.233",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3757,7 +3941,7 @@ var servers = {
                                 name: "频道 2",
                                 address: "109.244.2.234",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3768,7 +3952,7 @@ var servers = {
                                 name: "频道 3 贵宾",
                                 address: "109.244.2.235",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3779,7 +3963,7 @@ var servers = {
                                 name: "频道 4 贵宾",
                                 address: "109.244.2.236",
                                 port: "8586",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3790,7 +3974,7 @@ var servers = {
                                 name: "频道 5",
                                 address: "109.244.2.237",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3801,7 +3985,7 @@ var servers = {
                                 name: "频道 6",
                                 address: "109.244.2.238",
                                 port: "8586",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3812,7 +3996,7 @@ var servers = {
                                 name: "频道 7",
                                 address: "109.244.2.239",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3823,7 +4007,7 @@ var servers = {
                                 name: "频道 8",
                                 address: "109.244.2.240",
                                 port: "8586",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3834,7 +4018,7 @@ var servers = {
                                 name: "频道 9",
                                 address: "109.244.2.241",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3845,7 +4029,7 @@ var servers = {
                                 name: "频道 10",
                                 address: "109.244.2.242",
                                 port: "8586",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3856,7 +4040,7 @@ var servers = {
                                 name: "频道 11",
                                 address: "109.244.2.243",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3867,7 +4051,7 @@ var servers = {
                                 name: "频道 12",
                                 address: "109.244.2.244",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3878,7 +4062,7 @@ var servers = {
                                 name: "频道 13",
                                 address: "109.244.2.245",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3889,7 +4073,7 @@ var servers = {
                                 name: "频道 14",
                                 address: "109.244.2.246",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3900,7 +4084,7 @@ var servers = {
                                 name: "频道 15",
                                 address: "109.244.2.247",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3911,7 +4095,7 @@ var servers = {
                                 name: "频道 16",
                                 address: "109.244.2.248",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3922,7 +4106,7 @@ var servers = {
                                 name: "频道 17",
                                 address: "109.244.2.249",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3933,7 +4117,7 @@ var servers = {
                                 name: "频道 18",
                                 address: "109.244.2.250",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3944,7 +4128,7 @@ var servers = {
                                 name: "频道 19",
                                 address: "109.244.2.251",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3955,7 +4139,7 @@ var servers = {
                                 name: "频道 20",
                                 address: "109.244.2.252",
                                 port: "8585",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3966,7 +4150,7 @@ var servers = {
                                 name: "商城",
                                 address: "109.244.2.232",
                                 port: "8730",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3977,7 +4161,7 @@ var servers = {
                                 name: "拍卖场",
                                 address: "109.244.2.159",
                                 port: "8795",
-                                interval: 5000,
+                                interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
                                 rel: "戴米安"
@@ -3989,7 +4173,7 @@ var servers = {
                                     name: "频道 1",
                                     address: "109.244.2.187",
                                     port: "8585",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -3999,7 +4183,7 @@ var servers = {
                                     name: "频道 2",
                                     address: "109.244.2.193",
                                     port: "8585",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4009,7 +4193,7 @@ var servers = {
                                     name: "频道 3 贵宾",
                                     address: "109.244.2.188",
                                     port: "8585",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4019,7 +4203,7 @@ var servers = {
                                     name: "频道 4 贵宾",
                                     address: "109.244.2.188",
                                     port: "8586",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4029,7 +4213,7 @@ var servers = {
                                     name: "频道 5",
                                     address: "109.244.2.189",
                                     port: "8585",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4039,7 +4223,7 @@ var servers = {
                                     name: "频道 6",
                                     address: "109.244.2.194",
                                     port: "8585",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4049,7 +4233,7 @@ var servers = {
                                     name: "频道 7",
                                     address: "109.244.2.190",
                                     port: "8585",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4059,7 +4243,7 @@ var servers = {
                                     name: "频道 8",
                                     address: "109.244.2.190",
                                     port: "8586",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4069,7 +4253,7 @@ var servers = {
                                     name: "频道 9",
                                     address: "109.244.2.191",
                                     port: "8585",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4079,7 +4263,7 @@ var servers = {
                                     name: "频道 10",
                                     address: "109.244.2.191",
                                     port: "8586",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4089,7 +4273,7 @@ var servers = {
                                     name: "频道 11",
                                     address: "109.244.2.192",
                                     port: "8585",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4099,7 +4283,7 @@ var servers = {
                                     name: "频道 12",
                                     address: "109.244.2.192",
                                     port: "8586",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4109,7 +4293,7 @@ var servers = {
                                     name: "商城",
                                     address: "109.244.2.208",
                                     port: "8760",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4119,7 +4303,7 @@ var servers = {
                                     name: "拍卖场",
                                     address: "109.244.2.206",
                                     port: "8795",
-                                    interval: 5000,
+                                    interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
                                     rel: "希拉"
@@ -4132,7 +4316,7 @@ var servers = {
                                         name: "频道 1",
                                         address: "109.244.2.198",
                                         port: "8585",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4143,7 +4327,7 @@ var servers = {
                                         name: "频道 2",
                                         address: "109.244.2.198",
                                         port: "8586",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4154,7 +4338,7 @@ var servers = {
                                         name: "频道 3",
                                         address: "109.244.2.199",
                                         port: "8585",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4165,7 +4349,7 @@ var servers = {
                                         name: "频道 4",
                                         address: "109.244.2.199",
                                         port: "8586",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4176,7 +4360,7 @@ var servers = {
                                         name: "频道 5",
                                         address: "109.244.2.200",
                                         port: "8585",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4187,7 +4371,7 @@ var servers = {
                                         name: "频道 6",
                                         address: "109.244.2.200",
                                         port: "8586",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4198,7 +4382,7 @@ var servers = {
                                         name: "频道 7",
                                         address: "109.244.2.201",
                                         port: "8585",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4209,7 +4393,7 @@ var servers = {
                                         name: "频道 8",
                                         address: "109.244.2.201",
                                         port: "8586",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4220,7 +4404,7 @@ var servers = {
                                         name: "频道 9",
                                         address: "109.244.2.202",
                                         port: "8585",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4231,7 +4415,7 @@ var servers = {
                                         name: "频道 10",
                                         address: "109.244.2.202",
                                         port: "8586",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4242,7 +4426,7 @@ var servers = {
                                         name: "商城",
                                         address: "109.244.2.209",
                                         port: "8790",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4253,7 +4437,7 @@ var servers = {
                                         name: "拍卖场",
                                         address: "109.244.2.207",
                                         port: "8795",
-                                        interval: 5000,
+                                        interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
                                         rel: "班·雷昂"
@@ -4266,7 +4450,7 @@ var servers = {
                                             name: "频道 1",
                                             address: "159.75.223.22",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4277,7 +4461,7 @@ var servers = {
                                             name: "频道 2",
                                             address: "159.75.223.115",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4288,7 +4472,7 @@ var servers = {
                                             name: "频道 3 贵宾",
                                             address: "159.75.223.116",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4299,7 +4483,7 @@ var servers = {
                                             name: "频道 4 贵宾",
                                             address: "159.75.223.117",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4310,7 +4494,7 @@ var servers = {
                                             name: "频道 5",
                                             address: "159.75.223.118",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4321,7 +4505,7 @@ var servers = {
                                             name: "频道 6",
                                             address: "159.75.223.119",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4332,7 +4516,7 @@ var servers = {
                                             name: "频道 7",
                                             address: "159.75.223.120",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4343,7 +4527,7 @@ var servers = {
                                             name: "频道 8",
                                             address: "159.75.223.121",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4354,7 +4538,7 @@ var servers = {
                                             name: "频道 9",
                                             address: "159.75.223.122",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4365,7 +4549,7 @@ var servers = {
                                             name: "频道 10",
                                             address: "159.75.223.123",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4376,7 +4560,7 @@ var servers = {
                                             name: "频道 11",
                                             address: "159.75.223.124",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4387,7 +4571,7 @@ var servers = {
                                             name: "频道 12",
                                             address: "159.75.223.125",
                                             port: "8585",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4398,7 +4582,7 @@ var servers = {
                                             name: "商城",
                                             address: "159.75.223.113",
                                             port: "7120",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4409,7 +4593,7 @@ var servers = {
                                             name: "拍卖场",
                                             address: "159.75.223.103",
                                             port: "8795",
-                                            interval: 5000,
+                                            interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
                                             rel: "麦格纳斯"
@@ -4422,7 +4606,7 @@ var servers = {
                                                 name: "频道 1",
                                                 address: "116.211.24.51",
                                                 port: "8584",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4433,7 +4617,7 @@ var servers = {
                                                 name: "频道 2",
                                                 address: "116.211.24.51",
                                                 port: "8585",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4444,7 +4628,7 @@ var servers = {
                                                 name: "频道 3",
                                                 address: "116.211.24.110",
                                                 port: "8584",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4455,7 +4639,7 @@ var servers = {
                                                 name: "频道 4",
                                                 address: "116.211.24.110",
                                                 port: "8585",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4466,7 +4650,7 @@ var servers = {
                                                 name: "频道 5",
                                                 address: "116.211.24.134",
                                                 port: "8584",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4477,7 +4661,7 @@ var servers = {
                                                 name: "频道 6",
                                                 address: "116.211.24.134",
                                                 port: "8585",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4488,7 +4672,7 @@ var servers = {
                                                 name: "频道 7",
                                                 address: "116.211.24.135",
                                                 port: "8584",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4499,7 +4683,7 @@ var servers = {
                                                 name: "频道 8",
                                                 address: "116.211.24.135",
                                                 port: "8585",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4510,7 +4694,7 @@ var servers = {
                                                 name: "频道 9",
                                                 address: "116.211.24.136",
                                                 port: "8584",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4521,7 +4705,7 @@ var servers = {
                                                 name: "频道 10",
                                                 address: "116.211.24.136",
                                                 port: "8585",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4532,7 +4716,7 @@ var servers = {
                                                 name: "商城",
                                                 address: "116.211.24.140",
                                                 port: "8700",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4543,7 +4727,7 @@ var servers = {
                                                 name: "拍卖场",
                                                 address: "116.211.11.211",
                                                 port: "8795",
-                                                interval: 5000,
+                                                interval: 1500,
                                                 values: [],
                                                 isMapleStoryGameServer: true,
                                                 rel: "测试区"
@@ -4552,21 +4736,21 @@ var servers = {
     },
     MSEA: {
         Login: [{
-                icon: "Mushroom.png",
+                icon: "Mushroom_16.png",
                 name: "Login 1",
                 address: "121.52.202.7",
                 port: "8484",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Login"
             },
             {
-                icon: "Mushroom.png",
+                icon: "Mushroom_16.png",
                 name: "Login 2",
                 address: "121.52.202.9",
                 port: "8484",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Login"
@@ -4576,7 +4760,7 @@ var servers = {
                 name: "Merge World",
                 address: "121.52.202.81",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Login"
@@ -4587,7 +4771,7 @@ var servers = {
                 name: "Channel 1",
                 address: "121.52.202.15",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4597,7 +4781,7 @@ var servers = {
                 name: "Channel 2",
                 address: "121.52.202.16",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4607,7 +4791,7 @@ var servers = {
                 name: "Channel 3",
                 address: "121.52.202.17",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4617,7 +4801,7 @@ var servers = {
                 name: "Channel 4",
                 address: "121.52.202.18",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4627,7 +4811,7 @@ var servers = {
                 name: "Channel 5",
                 address: "121.52.202.19",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4637,7 +4821,7 @@ var servers = {
                 name: "Channel 6",
                 address: "121.52.202.20",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4647,7 +4831,7 @@ var servers = {
                 name: "Channel 7",
                 address: "121.52.202.21",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4657,7 +4841,7 @@ var servers = {
                 name: "Channel 8",
                 address: "121.52.202.22",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4667,7 +4851,7 @@ var servers = {
                 name: "Channel 9",
                 address: "121.52.202.23",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4677,7 +4861,7 @@ var servers = {
                 name: "Channel 10",
                 address: "121.52.202.24",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4687,7 +4871,7 @@ var servers = {
                 name: "Channel 11",
                 address: "121.52.202.25",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4697,7 +4881,7 @@ var servers = {
                 name: "Channel 12",
                 address: "121.52.202.26",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4707,7 +4891,7 @@ var servers = {
                 name: "Channel 13",
                 address: "121.52.202.27",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4717,7 +4901,7 @@ var servers = {
                 name: "Channel 14",
                 address: "121.52.202.28",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4727,7 +4911,7 @@ var servers = {
                 name: "Channel 15",
                 address: "121.52.202.29",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4737,7 +4921,7 @@ var servers = {
                 name: "Channel 16",
                 address: "121.52.202.30",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4747,7 +4931,7 @@ var servers = {
                 name: "Channel 17",
                 address: "121.52.202.31",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4757,7 +4941,7 @@ var servers = {
                 name: "Channel 18",
                 address: "121.52.202.32",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4767,7 +4951,7 @@ var servers = {
                 name: "Channel 19",
                 address: "121.52.202.33",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4777,7 +4961,7 @@ var servers = {
                 name: "Channel 20",
                 address: "121.52.202.34",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4787,7 +4971,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "121.52.202.12",
                 port: "8787",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4797,7 +4981,7 @@ var servers = {
                 name: "Auction",
                 address: "121.52.202.85",
                 port: "9000",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Aquila"
@@ -4808,7 +4992,7 @@ var servers = {
                 name: "Channel 1",
                 address: "121.52.202.35",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4818,7 +5002,7 @@ var servers = {
                 name: "Channel 2",
                 address: "121.52.202.36",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4828,7 +5012,7 @@ var servers = {
                 name: "Channel 3",
                 address: "121.52.202.37",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4838,7 +5022,7 @@ var servers = {
                 name: "Channel 4",
                 address: "121.52.202.38",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4848,7 +5032,7 @@ var servers = {
                 name: "Channel 5",
                 address: "121.52.202.39",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4858,7 +5042,7 @@ var servers = {
                 name: "Channel 6",
                 address: "121.52.202.40",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4868,7 +5052,7 @@ var servers = {
                 name: "Channel 7",
                 address: "121.52.202.41",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4878,7 +5062,7 @@ var servers = {
                 name: "Channel 8",
                 address: "121.52.202.42",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4888,7 +5072,7 @@ var servers = {
                 name: "Channel 9",
                 address: "121.52.202.43",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4898,7 +5082,7 @@ var servers = {
                 name: "Channel 10",
                 address: "121.52.202.44",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4908,7 +5092,7 @@ var servers = {
                 name: "Channel 11",
                 address: "121.52.202.35",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4918,7 +5102,7 @@ var servers = {
                 name: "Channel 12",
                 address: "121.52.202.36",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4928,7 +5112,7 @@ var servers = {
                 name: "Channel 13",
                 address: "121.52.202.37",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4938,7 +5122,7 @@ var servers = {
                 name: "Channel 14",
                 address: "121.52.202.38",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4948,7 +5132,7 @@ var servers = {
                 name: "Channel 15",
                 address: "121.52.202.39",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4958,7 +5142,7 @@ var servers = {
                 name: "Channel 16",
                 address: "121.52.202.40",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4968,7 +5152,7 @@ var servers = {
                 name: "Channel 17",
                 address: "121.52.202.41",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4978,7 +5162,7 @@ var servers = {
                 name: "Channel 18",
                 address: "121.52.202.42",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4988,7 +5172,7 @@ var servers = {
                 name: "Channel 19",
                 address: "121.52.202.43",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -4998,7 +5182,7 @@ var servers = {
                 name: "Channel 20",
                 address: "121.52.202.44",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -5008,7 +5192,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "121.52.202.12",
                 port: "8788",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -5018,7 +5202,7 @@ var servers = {
                 name: "Auction",
                 address: "121.52.202.86",
                 port: "9000",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Bootes"
@@ -5029,7 +5213,7 @@ var servers = {
                 name: "Channel 1",
                 address: "121.52.202.51",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5039,7 +5223,7 @@ var servers = {
                 name: "Channel 2",
                 address: "121.52.202.52",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5049,7 +5233,7 @@ var servers = {
                 name: "Channel 3",
                 address: "121.52.202.53",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5059,7 +5243,7 @@ var servers = {
                 name: "Channel 4",
                 address: "121.52.202.54",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5069,7 +5253,7 @@ var servers = {
                 name: "Channel 5",
                 address: "121.52.202.55",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5079,7 +5263,7 @@ var servers = {
                 name: "Channel 6",
                 address: "121.52.202.56",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5089,7 +5273,7 @@ var servers = {
                 name: "Channel 7",
                 address: "121.52.202.57",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5099,7 +5283,7 @@ var servers = {
                 name: "Channel 8",
                 address: "121.52.202.58",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5109,7 +5293,7 @@ var servers = {
                 name: "Channel 9",
                 address: "121.52.202.59",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5119,7 +5303,7 @@ var servers = {
                 name: "Channel 10",
                 address: "121.52.202.60",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5129,7 +5313,7 @@ var servers = {
                 name: "Channel 11",
                 address: "121.52.202.51",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5139,7 +5323,7 @@ var servers = {
                 name: "Channel 12",
                 address: "121.52.202.52",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5149,7 +5333,7 @@ var servers = {
                 name: "Channel 13",
                 address: "121.52.202.53",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5159,7 +5343,7 @@ var servers = {
                 name: "Channel 14",
                 address: "121.52.202.54",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5169,7 +5353,7 @@ var servers = {
                 name: "Channel 15",
                 address: "121.52.202.55",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5179,7 +5363,7 @@ var servers = {
                 name: "Channel 16",
                 address: "121.52.202.56",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5189,7 +5373,7 @@ var servers = {
                 name: "Channel 17",
                 address: "121.52.202.57",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5199,7 +5383,7 @@ var servers = {
                 name: "Channel 18",
                 address: "121.52.202.58",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5209,7 +5393,7 @@ var servers = {
                 name: "Channel 19",
                 address: "121.52.202.59",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5219,7 +5403,7 @@ var servers = {
                 name: "Channel 20",
                 address: "121.52.202.60",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5229,7 +5413,7 @@ var servers = {
                 name: "Cash Shop",
                 address: "121.52.202.12",
                 port: "8789",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
@@ -5239,341 +5423,341 @@ var servers = {
                 name: "Auction",
                 address: "121.52.202.87",
                 port: "9000",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Cassiopeia"
             }
         ],
-        D2J: [{
-                icon: "D2J.png",
+        Draco: [{
+                icon: "Draco.png",
                 name: "Channel 1",
                 address: "121.52.202.61",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 2",
                 address: "121.52.202.62",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 3",
                 address: "121.52.202.63",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 4",
                 address: "121.52.202.64",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 5",
                 address: "121.52.202.65",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 6",
                 address: "121.52.202.66",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 7",
                 address: "121.52.202.67",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 8",
                 address: "121.52.202.68",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 9",
                 address: "121.52.202.69",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 10",
                 address: "121.52.202.70",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 11",
                 address: "121.52.202.61",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 12",
                 address: "121.52.202.62",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 13",
                 address: "121.52.202.63",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 14",
                 address: "121.52.202.64",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 15",
                 address: "121.52.202.65",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
 			{
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 16",
                 address: "121.52.202.66",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
 			{
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 17",
                 address: "121.52.202.67",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
 			{
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 18",
                 address: "121.52.202.68",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
 			{
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 19",
                 address: "121.52.202.69",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
 			{
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Channel 20",
                 address: "121.52.202.70",
                 port: "8586",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
             {
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Cash Shop",
                 address: "121.52.202.12",
                 port: "8790",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
 			{
-                icon: "D2J.png",
+                icon: "Draco.png",
                 name: "Auction",
                 address: "121.52.202.88",
                 port: "9000",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
-                rel: "D2J"
+                rel: "Draco"
             },
         ]
     },
 	TMS: {
         Login: [{
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "Login 1",
             address: "202.80.104.24",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "Login 2",
             address: "202.80.104.25",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
 {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "Login 3",
             address: "202.80.104.26",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
 {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "Login 4",
             address: "202.80.104.27",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "Login 5",
             address: "202.80.104.28",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
 {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "Login 6",
             address: "202.80.104.29",
             port: "8484",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "跨伺服器 1",
             address: "202.80.104.59",
             port: "8686",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "跨伺服器 2",
             address: "202.80.104.60",
             port: "8686",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
 {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "跨伺服器 3",
             address: "202.80.104.61",
             port: "8686",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
 {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "跨伺服器 4",
             address: "202.80.104.62",
             port: "8686",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
         },
         {
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             name: "跨伺服器 5",
             address: "202.80.104.63",
             port: "8686",
-            interval: 5000,
+            interval: 1500,
             values: [],
             isMapleStoryGameServer: true,
             rel: "Login"
@@ -5585,7 +5769,7 @@ var servers = {
                 name: "Ch. 1",
                 address: "202.80.104.64",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5596,7 +5780,7 @@ var servers = {
                 name: "Ch. 2",
                 address: "202.80.104.64",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5607,7 +5791,7 @@ var servers = {
                 name: "Ch. 3",
                 address: "202.80.104.65",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5618,7 +5802,7 @@ var servers = {
                 name: "Ch. 4",
                 address: "202.80.104.65",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5629,7 +5813,7 @@ var servers = {
                 name: "Ch. 5",
                 address: "202.80.104.66",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5640,7 +5824,7 @@ var servers = {
                 name: "Ch. 6",
                 address: "202.80.104.66",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5651,7 +5835,7 @@ var servers = {
                 name: "Ch. 7",
                 address: "202.80.104.67",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5662,7 +5846,7 @@ var servers = {
                 name: "Ch. 8",
                 address: "202.80.104.67",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5673,7 +5857,7 @@ var servers = {
                 name: "Ch. 9",
                 address: "202.80.104.68",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5684,7 +5868,7 @@ var servers = {
                 name: "Ch. 10",
                 address: "202.80.104.68",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5695,7 +5879,7 @@ var servers = {
                 name: "Ch. 11",
                 address: "202.80.104.69",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5706,7 +5890,7 @@ var servers = {
                 name: "Ch. 12",
                 address: "202.80.104.69",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5717,7 +5901,7 @@ var servers = {
                 name: "Ch. 13",
                 address: "202.80.104.70",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5728,7 +5912,7 @@ var servers = {
                 name: "Ch. 14",
                 address: "202.80.104.70",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5739,7 +5923,7 @@ var servers = {
                 name: "Ch. 15",
                 address: "202.80.104.71",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5750,7 +5934,7 @@ var servers = {
                 name: "Ch. 16",
                 address: "202.80.104.71",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5761,7 +5945,7 @@ var servers = {
                 name: "Ch. 17",
                 address: "202.80.104.72",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5772,7 +5956,7 @@ var servers = {
                 name: "Ch. 18",
                 address: "202.80.104.72",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5783,7 +5967,7 @@ var servers = {
                 name: "Ch. 19",
                 address: "202.80.104.73",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5794,7 +5978,7 @@ var servers = {
                 name: "Ch. 20",
                 address: "202.80.104.73",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5805,7 +5989,7 @@ var servers = {
                 name: "Ch. 21",
                 address: "202.80.104.74",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5816,7 +6000,7 @@ var servers = {
                 name: "Ch. 22",
                 address: "202.80.104.74",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5827,7 +6011,7 @@ var servers = {
                 name: "Ch. 23",
                 address: "202.80.104.75",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5838,7 +6022,7 @@ var servers = {
                 name: "Ch. 24",
                 address: "202.80.104.75",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5849,7 +6033,7 @@ var servers = {
                 name: "Ch. 25",
                 address: "202.80.104.76",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5860,7 +6044,7 @@ var servers = {
                 name: "Ch. 26",
                 address: "202.80.104.76",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5871,7 +6055,7 @@ var servers = {
                 name: "Ch. 27",
                 address: "202.80.104.77",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5882,7 +6066,7 @@ var servers = {
                 name: "Ch. 28",
                 address: "202.80.104.77",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5893,7 +6077,7 @@ var servers = {
                 name: "Ch. 29",
                 address: "202.80.104.78",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5904,7 +6088,7 @@ var servers = {
                 name: "Ch. 30",
                 address: "202.80.104.78",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5915,7 +6099,7 @@ var servers = {
                 name: "Ch. 31",
                 address: "202.80.104.154",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5926,7 +6110,7 @@ var servers = {
                 name: "Ch. 32",
                 address: "202.80.104.154",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5937,7 +6121,7 @@ var servers = {
                 name: "Ch. 33",
                 address: "202.80.104.155",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5948,7 +6132,7 @@ var servers = {
                 name: "Ch. 34",
                 address: "202.80.104.155",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5959,7 +6143,7 @@ var servers = {
                 name: "Ch. 35",
                 address: "202.80.104.156",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5970,7 +6154,7 @@ var servers = {
                 name: "Ch. 36",
                 address: "202.80.104.156",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5981,7 +6165,7 @@ var servers = {
                 name: "Ch. 37",
                 address: "202.80.104.157",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -5992,7 +6176,7 @@ var servers = {
                 name: "Ch. 38",
                 address: "202.80.104.157",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -6003,7 +6187,7 @@ var servers = {
                 name: "Ch. 39",
                 address: "202.80.104.158",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -6014,7 +6198,7 @@ var servers = {
                 name: "Ch. 40",
                 address: "202.80.104.158",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "艾麗亞"
@@ -6061,7 +6245,7 @@ var servers = {
                 name: "Ch. 1",
                 address: "202.80.104.79",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6072,7 +6256,7 @@ var servers = {
                 name: "Ch. 2",
                 address: "202.80.104.79",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6083,7 +6267,7 @@ var servers = {
                 name: "Ch. 3",
                 address: "202.80.104.80",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6094,7 +6278,7 @@ var servers = {
                 name: "Ch. 4",
                 address: "202.80.104.80",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6105,7 +6289,7 @@ var servers = {
                 name: "Ch. 5",
                 address: "202.80.104.81",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6116,7 +6300,7 @@ var servers = {
                 name: "Ch. 6",
                 address: "202.80.104.81",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6127,7 +6311,7 @@ var servers = {
                 name: "Ch. 7",
                 address: "202.80.104.82",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6138,7 +6322,7 @@ var servers = {
                 name: "Ch. 8",
                 address: "202.80.104.82",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6149,7 +6333,7 @@ var servers = {
                 name: "Ch. 9",
                 address: "202.80.104.83",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6160,7 +6344,7 @@ var servers = {
                 name: "Ch. 10",
                 address: "202.80.104.83",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6171,7 +6355,7 @@ var servers = {
                 name: "Ch. 11",
                 address: "202.80.104.84",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6182,7 +6366,7 @@ var servers = {
                 name: "Ch. 12",
                 address: "202.80.104.84",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6193,7 +6377,7 @@ var servers = {
                 name: "Ch. 13",
                 address: "202.80.104.85",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6204,7 +6388,7 @@ var servers = {
                 name: "Ch. 14",
                 address: "202.80.104.85",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6215,7 +6399,7 @@ var servers = {
                 name: "Ch. 15",
                 address: "202.80.104.86",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6226,7 +6410,7 @@ var servers = {
                 name: "Ch. 16",
                 address: "202.80.104.86",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6237,7 +6421,7 @@ var servers = {
                 name: "Ch. 17",
                 address: "202.80.104.87",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6248,7 +6432,7 @@ var servers = {
                 name: "Ch. 18",
                 address: "202.80.104.87",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6259,7 +6443,7 @@ var servers = {
                 name: "Ch. 19",
                 address: "202.80.104.88",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6270,7 +6454,7 @@ var servers = {
                 name: "Ch. 20",
                 address: "202.80.104.88",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6281,7 +6465,7 @@ var servers = {
                 name: "Ch. 21",
                 address: "202.80.104.89",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6292,7 +6476,7 @@ var servers = {
                 name: "Ch. 22",
                 address: "202.80.104.89",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6303,7 +6487,7 @@ var servers = {
                 name: "Ch. 23",
                 address: "202.80.104.90",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6314,7 +6498,7 @@ var servers = {
                 name: "Ch. 24",
                 address: "202.80.104.90",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6325,7 +6509,7 @@ var servers = {
                 name: "Ch. 25",
                 address: "202.80.104.91",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6336,7 +6520,7 @@ var servers = {
                 name: "Ch. 26",
                 address: "202.80.104.91",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6347,7 +6531,7 @@ var servers = {
                 name: "Ch. 27",
                 address: "202.80.104.92",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6358,7 +6542,7 @@ var servers = {
                 name: "Ch. 28",
                 address: "202.80.104.92",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6369,7 +6553,7 @@ var servers = {
                 name: "Ch. 29",
                 address: "202.80.104.93",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6380,7 +6564,7 @@ var servers = {
                 name: "Ch. 30",
                 address: "202.80.104.93",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6391,7 +6575,7 @@ var servers = {
                 name: "購物商城",
                 address: "202.80.104.41",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6402,7 +6586,7 @@ var servers = {
                 name: "拍賣所",
                 address: "202.80.104.41",
                 port: "8787",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6413,7 +6597,7 @@ var servers = {
                 name: "非公開頻道",
                 address: "202.80.104.33",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "普力特"
@@ -6426,7 +6610,7 @@ var servers = {
                 name: "Ch. 1",
                 address: "202.80.104.94",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6437,7 +6621,7 @@ var servers = {
                 name: "Ch. 2",
                 address: "202.80.104.94",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6448,7 +6632,7 @@ var servers = {
                 name: "Ch. 3",
                 address: "202.80.104.95",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6459,7 +6643,7 @@ var servers = {
                 name: "Ch. 4",
                 address: "202.80.104.95",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6470,7 +6654,7 @@ var servers = {
                 name: "Ch. 5",
                 address: "202.80.104.96",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6481,7 +6665,7 @@ var servers = {
                 name: "Ch. 6",
                 address: "202.80.104.96",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6492,7 +6676,7 @@ var servers = {
                 name: "Ch. 7",
                 address: "202.80.104.97",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6503,7 +6687,7 @@ var servers = {
                 name: "Ch. 8",
                 address: "202.80.104.97",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6514,7 +6698,7 @@ var servers = {
                 name: "Ch. 9",
                 address: "202.80.104.98",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6525,7 +6709,7 @@ var servers = {
                 name: "Ch. 10",
                 address: "202.80.104.98",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6536,7 +6720,7 @@ var servers = {
                 name: "Ch. 11",
                 address: "202.80.104.99",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6547,7 +6731,7 @@ var servers = {
                 name: "Ch. 12",
                 address: "202.80.104.99",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6558,7 +6742,7 @@ var servers = {
                 name: "Ch. 13",
                 address: "202.80.104.100",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6569,7 +6753,7 @@ var servers = {
                 name: "Ch. 14",
                 address: "202.80.104.100",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6580,7 +6764,7 @@ var servers = {
                 name: "Ch. 15",
                 address: "202.80.104.101",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6591,7 +6775,7 @@ var servers = {
                 name: "Ch. 16",
                 address: "202.80.104.101",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6602,7 +6786,7 @@ var servers = {
                 name: "Ch. 17",
                 address: "202.80.104.102",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6613,7 +6797,7 @@ var servers = {
                 name: "Ch. 18",
                 address: "202.80.104.102",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6624,7 +6808,7 @@ var servers = {
                 name: "Ch. 19",
                 address: "202.80.104.103",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6635,7 +6819,7 @@ var servers = {
                 name: "Ch. 20",
                 address: "202.80.104.103",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6646,7 +6830,7 @@ var servers = {
                 name: "Ch. 21",
                 address: "202.80.104.104",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6657,7 +6841,7 @@ var servers = {
                 name: "Ch. 22",
                 address: "202.80.104.104",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6668,7 +6852,7 @@ var servers = {
                 name: "Ch. 23",
                 address: "202.80.104.105",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6679,7 +6863,7 @@ var servers = {
                 name: "Ch. 24",
                 address: "202.80.104.105",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6690,7 +6874,7 @@ var servers = {
                 name: "Ch. 25",
                 address: "202.80.104.106",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6701,7 +6885,7 @@ var servers = {
                 name: "Ch. 26",
                 address: "202.80.104.106",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6712,7 +6896,7 @@ var servers = {
                 name: "Ch. 27",
                 address: "202.80.104.107",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6723,7 +6907,7 @@ var servers = {
                 name: "Ch. 28",
                 address: "202.80.104.107",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6734,7 +6918,7 @@ var servers = {
                 name: "Ch. 29",
                 address: "202.80.104.108",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6745,7 +6929,7 @@ var servers = {
                 name: "Ch. 30",
                 address: "202.80.104.108",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6756,7 +6940,7 @@ var servers = {
                 name: "購物商城",
                 address: "202.80.104.42",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6767,7 +6951,7 @@ var servers = {
                 name: "拍賣所",
                 address: "202.80.104.42",
                 port: "8787",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6778,7 +6962,7 @@ var servers = {
                 name: "非公開頻道",
                 address: "202.80.104.34",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "琉德"
@@ -6791,7 +6975,7 @@ var servers = {
                 name: "Ch. 1",
                 address: "202.80.104.109",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6802,7 +6986,7 @@ var servers = {
                 name: "Ch. 2",
                 address: "202.80.104.109",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6813,7 +6997,7 @@ var servers = {
                 name: "Ch. 3",
                 address: "202.80.104.110",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6824,7 +7008,7 @@ var servers = {
                 name: "Ch. 4",
                 address: "202.80.104.110",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6835,7 +7019,7 @@ var servers = {
                 name: "Ch. 5",
                 address: "202.80.104.111",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6846,7 +7030,7 @@ var servers = {
                 name: "Ch. 6",
                 address: "202.80.104.111",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6857,7 +7041,7 @@ var servers = {
                 name: "Ch. 7",
                 address: "202.80.104.112",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6868,7 +7052,7 @@ var servers = {
                 name: "Ch. 8",
                 address: "202.80.104.112",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6879,7 +7063,7 @@ var servers = {
                 name: "Ch. 9",
                 address: "202.80.104.113",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6890,7 +7074,7 @@ var servers = {
                 name: "Ch. 10",
                 address: "202.80.104.113",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6901,7 +7085,7 @@ var servers = {
                 name: "Ch. 11",
                 address: "202.80.104.114",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6912,7 +7096,7 @@ var servers = {
                 name: "Ch. 12",
                 address: "202.80.104.114",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6923,7 +7107,7 @@ var servers = {
                 name: "Ch. 13",
                 address: "202.80.104.115",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6934,7 +7118,7 @@ var servers = {
                 name: "Ch. 14",
                 address: "202.80.104.115",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6945,7 +7129,7 @@ var servers = {
                 name: "Ch. 15",
                 address: "202.80.104.116",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6956,7 +7140,7 @@ var servers = {
                 name: "Ch. 16",
                 address: "202.80.104.116",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6967,7 +7151,7 @@ var servers = {
                 name: "Ch. 17",
                 address: "202.80.104.117",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6978,7 +7162,7 @@ var servers = {
                 name: "Ch. 18",
                 address: "202.80.104.117",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -6989,7 +7173,7 @@ var servers = {
                 name: "Ch. 19",
                 address: "202.80.104.118",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7000,7 +7184,7 @@ var servers = {
                 name: "Ch. 20",
                 address: "202.80.104.118",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7011,7 +7195,7 @@ var servers = {
                 name: "Ch. 21",
                 address: "202.80.104.119",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7022,7 +7206,7 @@ var servers = {
                 name: "Ch. 22",
                 address: "202.80.104.119",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7033,7 +7217,7 @@ var servers = {
                 name: "Ch. 23",
                 address: "202.80.104.120",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7044,7 +7228,7 @@ var servers = {
                 name: "Ch. 24",
                 address: "202.80.104.120",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7055,7 +7239,7 @@ var servers = {
                 name: "Ch. 25",
                 address: "202.80.104.121",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7066,7 +7250,7 @@ var servers = {
                 name: "Ch. 26",
                 address: "202.80.104.121",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7077,7 +7261,7 @@ var servers = {
                 name: "Ch. 27",
                 address: "202.80.104.122",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7088,7 +7272,7 @@ var servers = {
                 name: "Ch. 28",
                 address: "202.80.104.122",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7099,7 +7283,7 @@ var servers = {
                 name: "Ch. 29",
                 address: "202.80.104.123",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7110,7 +7294,7 @@ var servers = {
                 name: "Ch. 30",
                 address: "202.80.104.123",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7121,7 +7305,7 @@ var servers = {
                 name: "購物商城",
                 address: "202.80.104.43",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7132,7 +7316,7 @@ var servers = {
                 name: "拍賣所",
                 address: "202.80.104.43",
                 port: "8787",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7143,7 +7327,7 @@ var servers = {
                 name: "非公開頻道",
                 address: "202.80.104.35",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "優依娜"
@@ -7156,7 +7340,7 @@ var servers = {
                 name: "Ch. 1",
                 address: "202.80.104.124",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7167,7 +7351,7 @@ var servers = {
                 name: "Ch. 2",
                 address: "202.80.104.124",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7178,7 +7362,7 @@ var servers = {
                 name: "Ch. 3",
                 address: "202.80.104.125",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7189,7 +7373,7 @@ var servers = {
                 name: "Ch. 4",
                 address: "202.80.104.125",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7200,7 +7384,7 @@ var servers = {
                 name: "Ch. 5",
                 address: "202.80.104.126",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7211,7 +7395,7 @@ var servers = {
                 name: "Ch. 6",
                 address: "202.80.104.126",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7222,7 +7406,7 @@ var servers = {
                 name: "Ch. 7",
                 address: "202.80.104.127",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7233,7 +7417,7 @@ var servers = {
                 name: "Ch. 8",
                 address: "202.80.104.127",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7244,7 +7428,7 @@ var servers = {
                 name: "Ch. 9",
                 address: "202.80.104.128",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7255,7 +7439,7 @@ var servers = {
                 name: "Ch. 10",
                 address: "202.80.104.128",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7266,7 +7450,7 @@ var servers = {
                 name: "Ch. 11",
                 address: "202.80.104.129",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7277,7 +7461,7 @@ var servers = {
                 name: "Ch. 12",
                 address: "202.80.104.129",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7288,7 +7472,7 @@ var servers = {
                 name: "Ch. 13",
                 address: "202.80.104.130",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7299,7 +7483,7 @@ var servers = {
                 name: "Ch. 14",
                 address: "202.80.104.130",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7310,7 +7494,7 @@ var servers = {
                 name: "Ch. 15",
                 address: "202.80.104.131",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7321,7 +7505,7 @@ var servers = {
                 name: "Ch. 16",
                 address: "202.80.104.131",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7332,7 +7516,7 @@ var servers = {
                 name: "Ch. 17",
                 address: "202.80.104.132",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7343,7 +7527,7 @@ var servers = {
                 name: "Ch. 18",
                 address: "202.80.104.132",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7354,7 +7538,7 @@ var servers = {
                 name: "Ch. 19",
                 address: "202.80.104.133",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7365,7 +7549,7 @@ var servers = {
                 name: "Ch. 20",
                 address: "202.80.104.133",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7376,7 +7560,7 @@ var servers = {
                 name: "Ch. 21",
                 address: "202.80.104.134",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7387,7 +7571,7 @@ var servers = {
                 name: "Ch. 22",
                 address: "202.80.104.134",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7398,7 +7582,7 @@ var servers = {
                 name: "Ch. 23",
                 address: "202.80.104.135",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7409,7 +7593,7 @@ var servers = {
                 name: "Ch. 24",
                 address: "202.80.104.135",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7420,7 +7604,7 @@ var servers = {
                 name: "Ch. 25",
                 address: "202.80.104.136",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7431,7 +7615,7 @@ var servers = {
                 name: "Ch. 26",
                 address: "202.80.104.136",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7442,7 +7626,7 @@ var servers = {
                 name: "Ch. 27",
                 address: "202.80.104.137",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7453,7 +7637,7 @@ var servers = {
                 name: "Ch. 28",
                 address: "202.80.104.137",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7464,7 +7648,7 @@ var servers = {
                 name: "Ch. 29",
                 address: "202.80.104.138",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7475,7 +7659,7 @@ var servers = {
                 name: "Ch. 30",
                 address: "202.80.104.138",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7486,7 +7670,7 @@ var servers = {
                 name: "購物商城",
                 address: "202.80.104.44",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7497,7 +7681,7 @@ var servers = {
                 name: "拍賣所",
                 address: "202.80.104.44",
                 port: "8787",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7508,7 +7692,7 @@ var servers = {
                 name: "非公開頻道",
                 address: "202.80.104.36",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "愛麗西亞"
@@ -7521,7 +7705,7 @@ var servers = {
                 name: "Ch. 1",
                 address: "202.80.104.139",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7532,7 +7716,7 @@ var servers = {
                 name: "Ch. 2",
                 address: "202.80.104.139",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7543,7 +7727,7 @@ var servers = {
                 name: "Ch. 3",
                 address: "202.80.104.140",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7554,7 +7738,7 @@ var servers = {
                 name: "Ch. 4",
                 address: "202.80.104.140",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7565,7 +7749,7 @@ var servers = {
                 name: "Ch. 5",
                 address: "202.80.104.141",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7576,7 +7760,7 @@ var servers = {
                 name: "Ch. 6",
                 address: "202.80.104.141",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7587,7 +7771,7 @@ var servers = {
                 name: "Ch. 7",
                 address: "202.80.104.142",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7598,7 +7782,7 @@ var servers = {
                 name: "Ch. 8",
                 address: "202.80.104.142",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7609,7 +7793,7 @@ var servers = {
                 name: "Ch. 9",
                 address: "202.80.104.143",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7620,7 +7804,7 @@ var servers = {
                 name: "Ch. 10",
                 address: "202.80.104.143",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7631,7 +7815,7 @@ var servers = {
                 name: "Ch. 11",
                 address: "202.80.104.144",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7642,7 +7826,7 @@ var servers = {
                 name: "Ch. 12",
                 address: "202.80.104.144",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7653,7 +7837,7 @@ var servers = {
                 name: "Ch. 13",
                 address: "202.80.104.145",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7664,7 +7848,7 @@ var servers = {
                 name: "Ch. 14",
                 address: "202.80.104.145",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7675,7 +7859,7 @@ var servers = {
                 name: "Ch. 15",
                 address: "202.80.104.146",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7686,7 +7870,7 @@ var servers = {
                 name: "Ch. 16",
                 address: "202.80.104.146",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7697,7 +7881,7 @@ var servers = {
                 name: "Ch. 17",
                 address: "202.80.104.147",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7708,7 +7892,7 @@ var servers = {
                 name: "Ch. 18",
                 address: "202.80.104.147",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7719,7 +7903,7 @@ var servers = {
                 name: "Ch. 19",
                 address: "202.80.104.148",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7730,7 +7914,7 @@ var servers = {
                 name: "Ch. 20",
                 address: "202.80.104.148",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7741,7 +7925,7 @@ var servers = {
                 name: "Ch. 21",
                 address: "202.80.104.149",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7752,7 +7936,7 @@ var servers = {
                 name: "Ch. 22",
                 address: "202.80.104.149",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7763,7 +7947,7 @@ var servers = {
                 name: "Ch. 23",
                 address: "202.80.104.150",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7774,7 +7958,7 @@ var servers = {
                 name: "Ch. 24",
                 address: "202.80.104.150",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7785,7 +7969,7 @@ var servers = {
                 name: "Ch. 25",
                 address: "202.80.104.151",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7796,7 +7980,7 @@ var servers = {
                 name: "Ch. 26",
                 address: "202.80.104.151",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7807,7 +7991,7 @@ var servers = {
                 name: "Ch. 27",
                 address: "202.80.104.152",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7818,7 +8002,7 @@ var servers = {
                 name: "Ch. 28",
                 address: "202.80.104.152",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7829,7 +8013,7 @@ var servers = {
                 name: "Ch. 29",
                 address: "202.80.104.153",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7840,7 +8024,7 @@ var servers = {
                 name: "Ch. 30",
                 address: "202.80.104.153",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7851,7 +8035,7 @@ var servers = {
                 name: "購物商城",
                 address: "202.80.104.45",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7862,7 +8046,7 @@ var servers = {
                 name: "拍賣所",
                 address: "202.80.104.45",
                 port: "8787",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7873,7 +8057,7 @@ var servers = {
                 name: "非公開頻道",
                 address: "202.80.104.37",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "殺人鯨"
@@ -7885,7 +8069,7 @@ var servers = {
                 name: "Ch. 1",
                 address: "202.80.104.164",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7895,7 +8079,7 @@ var servers = {
                 name: "Ch. 2",
                 address: "202.80.104.164",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7905,7 +8089,7 @@ var servers = {
                 name: "Ch. 3",
                 address: "202.80.104.165",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7915,7 +8099,7 @@ var servers = {
                 name: "Ch. 4",
                 address: "202.80.104.165",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7925,7 +8109,7 @@ var servers = {
                 name: "Ch. 5",
                 address: "202.80.104.166",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7935,7 +8119,7 @@ var servers = {
                 name: "Ch. 6",
                 address: "202.80.104.166",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7945,7 +8129,7 @@ var servers = {
                 name: "Ch. 7",
                 address: "202.80.104.167",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7955,7 +8139,7 @@ var servers = {
                 name: "Ch. 8",
                 address: "202.80.104.167",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7965,7 +8149,7 @@ var servers = {
                 name: "Ch. 9",
                 address: "202.80.104.168",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7975,7 +8159,7 @@ var servers = {
                 name: "Ch. 10",
                 address: "202.80.104.168",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7985,7 +8169,7 @@ var servers = {
                 name: "Ch. 11",
                 address: "202.80.104.169",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -7995,7 +8179,7 @@ var servers = {
                 name: "Ch. 12",
                 address: "202.80.104.169",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8005,7 +8189,7 @@ var servers = {
                 name: "Ch. 13",
                 address: "202.80.104.170",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8015,7 +8199,7 @@ var servers = {
                 name: "Ch. 14",
                 address: "202.80.104.170",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8025,7 +8209,7 @@ var servers = {
                 name: "Ch. 15",
                 address: "202.80.104.171",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8035,7 +8219,7 @@ var servers = {
                 name: "Ch. 16",
                 address: "202.80.104.171",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8045,7 +8229,7 @@ var servers = {
                 name: "Ch. 17",
                 address: "202.80.104.172",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8055,7 +8239,7 @@ var servers = {
                 name: "Ch. 18",
                 address: "202.80.104.172",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8065,7 +8249,7 @@ var servers = {
                 name: "Ch. 19",
                 address: "202.80.104.173",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8075,7 +8259,7 @@ var servers = {
                 name: "Ch. 20",
                 address: "202.80.104.173",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8085,7 +8269,7 @@ var servers = {
                 name: "Ch. 21",
                 address: "202.80.104.174",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8095,7 +8279,7 @@ var servers = {
                 name: "Ch. 22",
                 address: "202.80.104.174",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8105,7 +8289,7 @@ var servers = {
                 name: "Ch. 23",
                 address: "202.80.104.175",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8115,7 +8299,7 @@ var servers = {
                 name: "Ch. 24",
                 address: "202.80.104.175",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8125,7 +8309,7 @@ var servers = {
                 name: "Ch. 25",
                 address: "202.80.104.176",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8135,7 +8319,7 @@ var servers = {
                 name: "Ch. 26",
                 address: "202.80.104.176",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8145,7 +8329,7 @@ var servers = {
                 name: "Ch. 27",
                 address: "202.80.104.177",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8155,7 +8339,7 @@ var servers = {
                 name: "Ch. 28",
                 address: "202.80.104.177",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8165,7 +8349,7 @@ var servers = {
                 name: "Ch. 29",
                 address: "202.80.104.178",
                 port: "8585",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8175,7 +8359,7 @@ var servers = {
                 name: "Ch. 30",
                 address: "202.80.104.178",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8185,7 +8369,7 @@ var servers = {
                 name: "購物商城",
                 address: "202.80.104.47",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8195,7 +8379,7 @@ var servers = {
                 name: "非公開頻道",
                 address: "202.80.104.39",
                 port: "8686",
-                interval: 5000,
+                interval: 1500,
                 values: [],
                 isMapleStoryGameServer: true,
                 rel: "Reboot"
@@ -8226,7 +8410,7 @@ var checker = {
             ],
             applications: [
                 GameServer("Europe", 0, [{
-                        icon: "Mushroom.png",
+                        icon: "Mushroom_16.png",
                         name: "Login",
                         english: false,
                         sub: ""
@@ -8291,7 +8475,7 @@ var checker = {
             ],
             applications: [
                 GameServer("Global", 0, [{
-                        icon: "Mushroom.png",
+                        icon: "Mushroom_16.png",
                         name: "Login",
                         english: false,
                         sub: ""
@@ -8362,17 +8546,17 @@ var checker = {
         },
         {
             abbr: "JMS",
-            name: "MapleStory Japan <small>日本</small>",
+            name: "MapleStory Japan <small>(日本)</small>",
             available: true,
             complete: false,
-            icon: "Galicia.png",
+            icon: "Kaede.png",
             short: "日本 | Japan",
             serverCount: [
                 4
             ],
             applications: [
                 GameServer("Japan", 9, [{
-                        icon: "Mushroom.png",
+                        icon: "Mushroom_16.png",
                         name: "Login",
                         english: false,
                         sub: ""
@@ -8416,14 +8600,14 @@ var checker = {
             name: "MapleStory Korea <small>(한국)</small>",
             available: true,
             complete: false,
-            icon: "Mushroom.png",
+            icon: "Mushroom_16.png",
             short: "한국 | Korea",
             serverCount: [
-                11
+                19
             ],
             applications: [
                 GameServer("Korea", 9, [{
-                        icon: "Mushroom.png",
+                        icon: "Mushroom_16.png",
                         name: "Login",
                         english: false,
                         sub: ""
@@ -8487,6 +8671,54 @@ var checker = {
                         name: "오로라",
                         english: "Aurora",
                         sub: "World"
+                    },
+                    {
+                        icon: "Arcane.png",
+                        name: "아케인",
+                        english: "Arcane",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Nova.png",
+                        name: "노바",
+                        english: "Nova",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Reboot.png",
+                        name: "리부트",
+                        english: "Reboot",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Reboot.png",
+                        name: "리부트2",
+                        english: "Reboot2",
+                        sub: "World"
+                    },
+                    {
+                        icon: "TestWorld.png",
+                        name: "테스트월드1",
+                        english: "TestWorld1",
+                        sub: "World"
+                    },
+                    {
+                        icon: "TestWorld.png",
+                        name: "테스트월드2",
+                        english: "TestWorld2",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Reboot.png",
+                        name: "리부트T",
+                        english: "RebootT",
+                        sub: "World"
+                    },
+                    {
+                        icon: "Reboot.png",
+                        name: "리부트T2",
+                        english: "RebootT2",
+                        sub: "World"
                     }
                 ], [
                     servers.KMS.Login,
@@ -8500,7 +8732,15 @@ var checker = {
                     servers.KMS['엘리시움'],
                     servers.KMS['이노시스'],
                     servers.KMS['레드'],
-                    servers.KMS['오로라']
+                    servers.KMS['오로라'],
+                    servers.KMS['아케인'],
+                    servers.KMS['노바'],
+                    servers.KMS['리부트'],
+                    servers.KMS['리부트2'],
+                    servers.KMS['테스트월드1'],
+                    servers.KMS['테스트월드2'],
+                    servers.KMS['리부트T'],
+                    servers.KMS['리부트T2']
                 ])
             ]
         },
@@ -8516,7 +8756,7 @@ var checker = {
             ],
             applications: [
                 GameServer("China", 8, [{
-                        icon: "Mushroom.png",
+                        icon: "Mushroom_16.png",
                         name: "Login",
                         english: false,
                         sub: ""
@@ -8594,7 +8834,7 @@ var checker = {
             ],
             applications: [
                 GameServer("SEA", 8, [{
-                        icon: "Mushroom.png",
+                        icon: "Mushroom_16.png",
                         name: "Login",
                         english: false,
                         sub: ""
@@ -8637,8 +8877,8 @@ var checker = {
                     		sub: "World"
                     	},*/
                     {
-                        icon: "D2J.png",
-                        name: "D2J",
+                        icon: "Draco.png",
+                        name: "Draco",
                         english: false,
                         sub: "World"
                     }
@@ -8666,7 +8906,7 @@ var checker = {
                     servers.MSEA.Aquila,
                     servers.MSEA.Bootes,
                     servers.MSEA.Cassiopeia,
-                    servers.MSEA.D2J
+                    servers.MSEA.Draco
                 ])
             ]
         },
@@ -8682,7 +8922,7 @@ var checker = {
             ],
             applications: [
                 GameServer("Taiwan", 8, [{
-                        icon: "Mushroom.png",
+                        icon: "Mushroom_16.png",
                         name: "Login",
                         english: false,
                         sub: ""
@@ -8790,6 +9030,22 @@ function GetEnglishIconNameForServer(serverName) {
             return "Red";
         case "오로라":
             return "Aurora";
+        case "아케인":
+            return "Arcane";
+        case "노바":
+            return "Nova";
+        case "리부트":
+            return "Reboot";
+        case "리부트2":
+            return "Reboot";
+        case "테스트월드1":
+            return "TestWorld";
+        case "테스트월드2":
+            return "TestWorld";
+        case "리부트T":
+            return "Reboot";
+        case "리부트T2":
+            return "Reboot";
         case "Login":
             return "Mushroom";
         case "艾麗亞":
@@ -8872,11 +9128,11 @@ function GetCheckTimeout() {
 
 function GetPingOffset() {
     return new PingModel([{
-        icon: "Mushroom.png",
+        icon: "Mushroom_16.png",
         name: "Self",
         address: "127.0.0.1",
         port: "80",
-        interval: 5000,
+        interval: 1500,
         values: [],
         unknown: true,
         rel: "Self"
