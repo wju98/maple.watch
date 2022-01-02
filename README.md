@@ -9,4 +9,4 @@ MapleSEA information was contributed by Northbadge.
 Other servers will be added if server information is found or contributed.
 
 =======
-See it live [https://xymu.github.io/maple.watch](here.)
+See it live [here.](https://xymu.github.io/maple.watch)
